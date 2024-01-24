@@ -8,7 +8,7 @@ import folium
 
 INTERMUNICIPAL_FILE = "intermunicipal_od_2020_01_01.csv"
 MAX_EDGES = 10 # max number of adjacent municipalities
-MAX_DISTANCE = 75 # miles
+MAX_DISTANCE = 20 # miles (all distances are in miles unless otherwise specified)
 
 
 class MunicipalityEdge:
@@ -30,18 +30,19 @@ class MunicipalityEdge:
 
 
 class Municipality:
-	def __init__(self, name, state, code, lat, lon, hasSupercharger=False, edges=None):
+	def __init__(self, name, state, code, lat, lon, hasSupercharger=False, outEdges=None):
 		self.name = name
 		self.state = state
 		self.code = code
 		self.lat = lat
 		self.lon = lon
 		self.hasSupercharger = hasSupercharger
-		self.edges = [MunicipalityEdge(
+		self.outEdges = [MunicipalityEdge(
 			edge["fromMuniCode"], 
 			edge["toMuniCode"], 
 			edge["weight"], 
-			edge["distance"]) for edge in edges] if edges else []
+			edge["distance"]) for edge in outEdges] if outEdges else []
+
 	
 	def __str__(self):
 		return self.name + ", " + self.state + ", " + self.code + ", " + str(self.hasSupercharger)
@@ -50,10 +51,11 @@ class Municipality:
 		# See if the edge.value is greater than the smallest edge in the heap
 		# If it is, then pop the smallest edge and push the new edge
 		# Otherwise, do nothing
-		if edge.distance < MAX_DISTANCE and (len(self.edges) < MAX_EDGES or edge.weight > self.edges[0].weight):
-			heapq.heappush(self.edges, edge)
-			if len(self.edges) > MAX_EDGES:
-				heapq.heappop(self.edges)
+		isValidDistance = edge.distance < MAX_DISTANCE or ((edge.fromMuniCode.startswith('09') or edge.toMuniCode.startswith('09')) and edge.distance < 2 * MAX_DISTANCE)
+		if isValidDistance and (len(self.outEdges) < MAX_EDGES or edge.weight > self.outEdges[0].weight):
+			heapq.heappush(self.outEdges, edge)
+			if len(self.outEdges) > MAX_EDGES:
+				heapq.heappop(self.outEdges)
 
 
 def municipalityDictSerializer(obj):
@@ -282,8 +284,8 @@ def addEdgesToMunicipalities():
 		fromMuni = codesToMunicipalities[edge.fromMuniCode]
 		toMuni = codesToMunicipalities[edge.toMuniCode]
 		edge.setEdgeDistance(getDistanceBetweenMunicipalities(fromMuni, toMuni))
+		# Add the edge to the fromMuni (ie: it will be an out edge, directional graph)
 		fromMuni.addEdge(edge)
-		toMuni.addEdge(edge)
 
 	return codesToMunicipalities
 
@@ -301,13 +303,12 @@ def loadMunicipalitiesWithEdges():
 
 
 def testAndSaveToMap():
-	'''
 	codeToMuni = addEdgesToMunicipalities()
 
 	totalEdges = 0
 	for muni in codeToMuni.values():
-		totalEdges += len(muni.edges)
-	print("Total edges:", totalEdges)
+		totalEdges += len(muni.outEdges)
+	print("Total out edges:", totalEdges)
 
 	print("Saving the municipalities with edges")
 	saveMunicipalitiesWithEdges(codeToMuni)
@@ -317,9 +318,8 @@ def testAndSaveToMap():
 	# Print the total number of edges
 	totalEdges = 0
 	for muni in codeToMuni.values():
-		totalEdges += len(muni.edges)
-	print("Total edges:", totalEdges)
-	'''
+		totalEdges += len(muni.outEdges)
+	print("Total out edges:", totalEdges)
 
 	# Get the municipalities with edges
 	graph = loadMunicipalitiesWithEdges()
@@ -336,7 +336,7 @@ def testAndSaveToMap():
 		folium.Marker([muni.lat, muni.lon], popup=muni.name).add_to(mexico_map)
 
 		# Add a line between the municipality and its neighbors
-		for edge in muni.edges:
+		for edge in muni.outEdges:
 			# Get the neighbor
 			neighbor = graph[edge.toMuniCode]
 			# Add a line between the two municipalities
@@ -344,10 +344,12 @@ def testAndSaveToMap():
 
 	# Save the map to an HTML file
 	mexico_map.save("mexico_map.html")
+	print("Saved interactive map")
 
 
 def main():
-	print("Done")
+	# No need to run this again, graph has already been made
+	testAndSaveToMap()
 
 
 if __name__ == '__main__':
