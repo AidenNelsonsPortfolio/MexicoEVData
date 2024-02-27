@@ -401,5 +401,3 @@ def makeAndSaveMapV2():
 if __name__ == '__main__':
 	# Already done, generated the cleanMunicipalitiesWithEdgesV2.json file, can be read in via loadMunicipalitiesWithEdgesV2()
 	makeAndSaveMapV2()
-
-print("Works")
