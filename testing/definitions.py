@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from enum import Enum
-from abc import ABC
 
 MAX_RANGE: int = 35
 
@@ -74,7 +73,7 @@ class Graph:
 		return self.graphData[muniCode].hasSupercharger
 
 # Graph Algorithm parent class (standard interface)
-class Algorithm(ABC):
+class Algorithm:
 	@staticmethod
 	def getShortestPath(startingCode: str, endingCode: str, graph: Graph) -> float|int|None:
 		raise NotImplementedError("Subclasses must implement getShortestPath.")
