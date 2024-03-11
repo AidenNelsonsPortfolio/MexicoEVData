@@ -22,8 +22,8 @@ TEST_CASES: list[TestCase] | None = [
 	TestCase(
 		"07076",
 		"12035",
-		GraphType.ALL_NODES,
-		SPAlgorithm.FLOYD_WARSHALL
+		GraphType.EIGHT_NODES,
+		SPAlgorithm.DIJKSTRA
 	),
 ]
 
@@ -70,9 +70,9 @@ def main():
 	print("Beginning running test cases...\n")
 	for i, testCase in enumerate(TEST_CASES):
 		# Run the specified algorithm on the test case
-		print(f"Running test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode}...")
+		print(f"Running test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {testCase.algorithm.name} on {testCase.graphType.name} graph...")
 		results = getShortestPath(testCase, graphs[testCase.graphType])
-		print(f"Shortest path(s): {results}\n")
+		print(f"Shortest path(s): {results} total miles\n")
 	print("All test cases have been run.")
 
 # Driver function

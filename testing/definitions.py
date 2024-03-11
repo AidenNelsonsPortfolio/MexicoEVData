@@ -2,6 +2,8 @@ from dataclasses import dataclass
 from enum import Enum
 from abc import ABC
 
+MAX_RANGE: int = 35
+
 # Municipality and MunicipalityEdge classes
 class MunicipalityEdge:
 	def __init__(self, fromMuniCode:str, toMuniCode:str, distance:float|int|None=None):
@@ -74,7 +76,7 @@ class Graph:
 # Graph Algorithm parent class (standard interface)
 class Algorithm(ABC):
 	@staticmethod
-	def getShortestPath(startingCode: str, endingCode: str|None, graph: Graph) -> float|int|None:
+	def getShortestPath(startingCode: str, endingCode: str, graph: Graph) -> float|int|None:
 		raise NotImplementedError("Subclasses must implement getShortestPath.")
 
 
@@ -85,12 +87,15 @@ class RouteStop:
 	distance: float|int
 	charged: bool=False
 
+	def __str__(self):
+		return f"{self.muniCode} (Edge Distance: {self.distance}, Charged: {self.charged})"
+
 @dataclass
 class Route:
 	stops: list[RouteStop]
 
 	def __str__(self):
-		return ' -> '.join([f"{stop.muniCode} (Edge Distance: {stop.distance}, Charged: {stop.charged})" for stop in self.stops])
+		return ' -> '.join([str(stop) for stop in self.stops])
 
 	def __len__(self):
 		return len(self.stops)
@@ -98,6 +103,12 @@ class Route:
 	@property
 	def totalDistance(self):
 		return sum([stop.distance for stop in self.stops])
+
+	def reverse(self):
+		self.stops.reverse()
+
+	def addStop(self, stop: RouteStop):
+		self.stops.append(stop)
 
 # Enums for GraphType and SPAlgorithm (for use in TestCase definitions)
 class SPAlgorithm(Enum):

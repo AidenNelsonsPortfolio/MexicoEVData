@@ -1,8 +1,8 @@
-from definitions import Algorithm, Graph, Municipality, Route, RouteStop
+from definitions import Algorithm, Graph, Municipality, Route, RouteStop, MAX_RANGE
 
 class FloydWarshall(Algorithm):
 	@staticmethod
-	def getShortestPath(startingCode: str, endingCode: str|None, graph: Graph) -> float|int|None:
+	def getShortestPath(startingCode: str, endingCode: str, graph: Graph) -> float|int|None:
 		# Make adjacency matrix with all infinity values
 		numMuni:int = len(graph)
 		adjMatrix: list[list[float]] = [[float('inf')] * numMuni for _ in range(numMuni)]
@@ -27,7 +27,6 @@ class FloydWarshall(Algorithm):
 		# Find a route
 		startMuni: Municipality = graph[startingCode]
 		endMuni: Municipality = graph[endingCode]
-		maxRange: int = 7
 		exceededRange: bool = False 
 		distWithoutCharge: float|int = 0
 
@@ -44,12 +43,12 @@ class FloydWarshall(Algorithm):
 
 					if not neighborMuni.hasSupercharger:
 						distWithoutCharge += adjMatrix[nextMuni.index][neighborMuni.index]
-						route.stops.append(RouteStop(neighbor, adjMatrix[nextMuni.index][neighborMuni.index]))
+						route.addStop(RouteStop(neighbor, adjMatrix[nextMuni.index][neighborMuni.index]))
 					else: 
 						distWithoutCharge = 0
-						route.stops.append(RouteStop(neighbor, adjMatrix[nextMuni.index][neighborMuni.index], True))
+						route.addStop(RouteStop(neighbor, adjMatrix[nextMuni.index][neighborMuni.index], True))
 
-					if distWithoutCharge > maxRange:
+					if distWithoutCharge > MAX_RANGE:
 						exceededRange = True
 						break
 
@@ -61,7 +60,6 @@ class FloydWarshall(Algorithm):
 			return None
 
 		print(f"The route between {startMuni.code} and {endMuni.code} is: {route}")
-		print(f"Finished with range remaining of {maxRange - distWithoutCharge} mile(s).")
-		print(f"The total distance is {route.totalDistance}")
+		print(f"Began with range of {MAX_RANGE} mile(s) and finished with range remaining of {MAX_RANGE - distWithoutCharge} mile(s).")
 
 		return route.totalDistance
