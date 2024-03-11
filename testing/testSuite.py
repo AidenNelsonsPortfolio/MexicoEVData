@@ -19,7 +19,9 @@ from floydWarshall import FloydWarshall
 TEST_CASES: list[TestCase] | None = [
     TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.FLOYD_WARSHALL),
     TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
-    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.A_STAR),
+    TestCase("07076", "SomeRandomCode", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
+    TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.A_STAR),
+    TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.DIJKSTRA),
 ]
 
 
