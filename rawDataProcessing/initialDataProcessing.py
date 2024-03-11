@@ -257,8 +257,8 @@ def testAndSaveToMap(codeToMuni, outputFile="mexicoMap.html"):
 def main():
 	print("Beginning data processing...\n")
 
-	# Clean the municipalities data (raw), already performed and original file deleted.
-	# cleanMuncipalities()
+	# Clean the municipalities data (raw), already performed.
+	cleanMunicipalities()
 
 	# Combine the two datasets to mark which muncipalities have the superchargers in them
 	saveMunicipalityWithSuperchargers()
