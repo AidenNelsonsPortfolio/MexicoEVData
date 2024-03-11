@@ -6,75 +6,128 @@
 # It will output shortest paths or distances for each of the TestCases, as well as automatically load graphs.
 
 import json
-from definitions import Graph, GraphType, SPAlgorithm, TestCase, Municipality
+from os import path
+from pathlib import Path
+import pprint
+from typing import Optional
+from definitions import Graph, GraphType, Route, SPAlgorithm, TestCase, Municipality
 from aStar import AStar
 from dijkstra import Dijkstra
 from floydWarshall import FloydWarshall
 
 # Defined Test Cases and other Constants
 TEST_CASES: list[TestCase] | None = [
-	TestCase(
-		"07076",
-		"12035",
-		GraphType.EIGHT_NODES,
-		SPAlgorithm.FLOYD_WARSHALL
-	),
-	TestCase(
-		"07076",
-		"12035",
-		GraphType.EIGHT_NODES,
-		SPAlgorithm.DIJKSTRA
-	),
+    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.FLOYD_WARSHALL),
+    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
+    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.A_STAR),
 ]
+
 
 # Function to load in initial graph (already given distances, codes, etc.)
 def getGraph(graphType: GraphType) -> Graph:
-	match graphType:
-		case GraphType.ALL_NODES:
-			with open('../graphs/allMunicipalitiesGraph.json') as file:
-				obj: dict[str, dict] = json.load(file)
-				return Graph({code: Municipality(index, **value) for index, (code, value) in enumerate(obj.items())})
-		case GraphType.EIGHT_NODES:
-			with open('../graphs/eightMunicipalitiesGraph.json') as file:
-				obj: dict[str, dict] = json.load(file)
-				return Graph({code: Municipality(index, **value) for index, (code, value) in enumerate(obj.items())})
-		case _:
-			print("The provided graph type in TestCase does not exist, please retry.")
-			raise ValueError("Invalid GraphType in TestCase")
+    parent_dir = str(path.dirname(Path(__file__).parent))
+    match graphType:
+        case GraphType.ALL_NODES:
+            with open(
+                path.join(parent_dir, "graphs/allMunicipalitiesGraph.json")
+            ) as file:
+                obj: dict[str, dict] = json.load(file)
+                return Graph(
+                    {
+                        code: Municipality(index, **value)
+                        for index, (code, value) in enumerate(obj.items())
+                    }
+                )
+        case GraphType.EIGHT_NODES:
+            with open(
+                path.join(parent_dir, "graphs/eightMunicipalitiesGraph.json")
+            ) as file:
+                obj: dict[str, dict] = json.load(file)
+                return Graph(
+                    {
+                        code: Municipality(index, **value)
+                        for index, (code, value) in enumerate(obj.items())
+                    }
+                )
+        case _:
+            print("The provided graph type in TestCase does not exist, please retry.")
+            raise ValueError("Invalid GraphType in TestCase")
+
+
+def no_route_err_handler(route: Optional[Route], algo: SPAlgorithm):
+    if not route:
+        print(
+            "\033[91m-------------------------------------"
+        )  # '\033[91m' is ANSI Color Red Opening Character
+        print(f"No route found for {algo}")
+        print(
+            "-------------------------------------\033[00m"
+        )  # '\033[00m' is ANSI Color Closing Character
+    return route
+
 
 # Function to get the shortest path from a given test case
-def getShortestPath(testCase: TestCase, graph: Graph) -> float | int:
-	# Call the function from the respective file
-	match testCase.algorithm:
-		case SPAlgorithm.DIJKSTRA:
-			return Dijkstra.getShortestPath(testCase.startingMunicipalityCode, testCase.endingMunicipalityCode, graph)
-		case SPAlgorithm.A_STAR:
-			return AStar.getShortestPath(testCase.startingMunicipalityCode, testCase.endingMunicipalityCode, graph)
-		case SPAlgorithm.FLOYD_WARSHALL:
-			return FloydWarshall.getShortestPath(testCase.startingMunicipalityCode, testCase.endingMunicipalityCode, graph)
-		case _:
-			print("Bad algorithm type in test case, please retry.")
-			raise ValueError("Invalid algorithm type")
+def getShortestPath(testCase: TestCase, graph: Graph) -> Route:
+    # Call the function from the respective file
+    match testCase.algorithm:
+        case SPAlgorithm.DIJKSTRA:
+            return no_route_err_handler(
+                Dijkstra.getShortestPath(
+                    testCase.startingMunicipalityCode,
+                    testCase.endingMunicipalityCode,
+                    graph,
+                ),
+                SPAlgorithm.DIJKSTRA,
+            )
+        case SPAlgorithm.A_STAR:
+            return no_route_err_handler(
+                (
+                    AStar.getShortestPath(
+                        testCase.startingMunicipalityCode,
+                        testCase.endingMunicipalityCode,
+                        graph,
+                    )
+                ),
+                SPAlgorithm.A_STAR,
+            )
+        case SPAlgorithm.FLOYD_WARSHALL:
+            return no_route_err_handler(
+                FloydWarshall.getShortestPath(
+                    testCase.startingMunicipalityCode,
+                    testCase.endingMunicipalityCode,
+                    graph,
+                ),
+                SPAlgorithm.FLOYD_WARSHALL,
+            )
+        case _:
+            print("Bad algorithm type in test case, please retry.")
+            raise ValueError("Invalid algorithm type")
+
 
 # Main function to run different TestCase objects
 def main():
-	if not TEST_CASES: return
+    if not TEST_CASES:
+        return
 
-	# Load in all graphs
-	print("Loading all graphs...")
-	graphs: dict[GraphType:Graph] = {}
-	for graphType in GraphType: graphs[graphType] = getGraph(graphType)
-	print("Done loading graphs.")
+    # Load in all graphs
+    print("Loading all graphs...")
+    graphs: dict[GraphType:Graph] = {}
+    for graphType in GraphType:
+        graphs[graphType] = getGraph(graphType)
+    print("Done loading graphs.")
 
-	# Run all test cases
-	print("Beginning running test cases...\n")
-	for i, testCase in enumerate(TEST_CASES):
-		# Run the specified algorithm on the test case
-		print(f"Running test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {testCase.algorithm.name} on {testCase.graphType.name} graph...")
-		results = getShortestPath(testCase, graphs[testCase.graphType])
-		print(f"Shortest path(s): {results} total miles\n")
-	print("All test cases have been run.")
+    # Run all test cases
+    print("Beginning running test cases...\n")
+    for i, testCase in enumerate(TEST_CASES):
+        # Run the specified algorithm on the test case
+        print(
+            f"\033[93mRunning test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {testCase.algorithm.value} on {testCase.graphType.value}...\033[00m"
+        )
+        route = getShortestPath(testCase, graphs[testCase.graphType])
+        route.print().print_shortest_path_str() if route else ()
+    print("All test cases have been run.")
+
 
 # Driver function
 if __name__ == "__main__":
-	main()
+    main()
