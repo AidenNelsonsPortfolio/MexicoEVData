@@ -1,0 +1,1003 @@
+{
+    "07051": {
+        "name": "Mapastepec",
+        "state": "Chiapas",
+        "code": "07051",
+        "lat": 15.460924811691712,
+        "lon": -92.89171531178879,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "07076": {
+        "name": "Sabanilla",
+        "state": "Chiapas",
+        "code": "07076",
+        "lat": 17.31982367250815,
+        "lon": -92.61075877375268,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "07111": {
+        "name": "Zinacant\u00e1n",
+        "state": "Chiapas",
+        "code": "07111",
+        "lat": 16.72191551046949,
+        "lon": -92.78198278131104,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "08010": {
+        "name": "Buenaventura",
+        "state": "Chihuahua",
+        "code": "08010",
+        "lat": 30.058139920082457,
+        "lon": -107.1214009141779,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "10012": {
+        "name": "Lerdo",
+        "state": "Durango",
+        "code": "10012",
+        "lat": 25.477644319626215,
+        "lon": -103.68583275892756,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "12022": {
+        "name": "Coyuca de Catal\u00e1n",
+        "state": "Guerrero",
+        "code": "12022",
+        "lat": 18.081794986837668,
+        "lon": -100.92990687296435,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "12035": {
+        "name": "Iguala de la Independencia",
+        "state": "Guerrero",
+        "code": "12035",
+        "lat": 18.226804584474202,
+        "lon": -99.58212282539174,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "12041": {
+        "name": "Malinaltepec",
+        "state": "Guerrero",
+        "code": "12041",
+        "lat": 17.18122220609279,
+        "lon": -98.69546233717014,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "12062": {
+        "name": "Tlacoachistlahuaca",
+        "state": "Guerrero",
+        "code": "12062",
+        "lat": 16.939057975759834,
+        "lon": -98.27712767341802,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "12062",
+                "toMuniCode": "12071",
+                "distance": 9.271904433793539
+            }
+        ]
+    },
+    "12066": {
+        "name": "Tlapa de Comonfort",
+        "state": "Guerrero",
+        "code": "12066",
+        "lat": 17.56217102942423,
+        "lon": -98.61554085201443,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "12071": {
+        "name": "Xochistlahuaca",
+        "state": "Guerrero",
+        "code": "12071",
+        "lat": 16.869427263594027,
+        "lon": -98.15726710470292,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "12071",
+                "toMuniCode": "12062",
+                "distance": 9.271904433793539
+            },
+            {
+                "fromMuniCode": "12071",
+                "toMuniCode": "20447",
+                "distance": 13.663174233012034
+            }
+        ]
+    },
+    "13011": {
+        "name": "Atlapexco",
+        "state": "Hidalgo",
+        "code": "13011",
+        "lat": 21.02730563218825,
+        "lon": -98.36354664585207,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "13018": {
+        "name": "Chapulhuac\u00e1n",
+        "state": "Hidalgo",
+        "code": "13018",
+        "lat": 21.128437094912297,
+        "lon": -98.94967352867431,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "13065": {
+        "name": "Tetepango",
+        "state": "Hidalgo",
+        "code": "13065",
+        "lat": 20.114407205886465,
+        "lon": -99.15183408388845,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "13083": {
+        "name": "Zempoala",
+        "state": "Hidalgo",
+        "code": "13083",
+        "lat": 19.92313148260627,
+        "lon": -98.67233878210565,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14004": {
+        "name": "Amacueca",
+        "state": "Jalisco",
+        "code": "14004",
+        "lat": 19.99994310348076,
+        "lon": -103.62257921688008,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14046": {
+        "name": "Jalostotitl\u00e1n",
+        "state": "Jalisco",
+        "code": "14046",
+        "lat": 21.191664348956095,
+        "lon": -102.48934145190793,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14072": {
+        "name": "San Diego de Alejandr\u00eda",
+        "state": "Jalisco",
+        "code": "14072",
+        "lat": 20.97012470453491,
+        "lon": -102.02345847626597,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14084": {
+        "name": "Talpa de Allende",
+        "state": "Jalisco",
+        "code": "14084",
+        "lat": 20.299440033444856,
+        "lon": -104.95347579288664,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14090": {
+        "name": "Tenamaxtl\u00e1n",
+        "state": "Jalisco",
+        "code": "14090",
+        "lat": 20.146885229317608,
+        "lon": -104.16552469205719,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "14104": {
+        "name": "Totatiche",
+        "state": "Jalisco",
+        "code": "14104",
+        "lat": 21.958914054358047,
+        "lon": -103.4785743687126,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "15013": {
+        "name": "Atizap\u00e1n de Zaragoza",
+        "state": "M\u00e9xico",
+        "code": "15013",
+        "lat": 19.56480115782134,
+        "lon": -99.2740433683441,
+        "hasSupercharger": true,
+        "edges": []
+    },
+    "15025": {
+        "name": "Chalco",
+        "state": "M\u00e9xico",
+        "code": "15025",
+        "lat": 19.253595364910407,
+        "lon": -98.83168677534364,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "15069": {
+        "name": "Papalotla",
+        "state": "M\u00e9xico",
+        "code": "15069",
+        "lat": 19.559881027880465,
+        "lon": -98.85786095775845,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "15116": {
+        "name": "Zacazonapan",
+        "state": "M\u00e9xico",
+        "code": "15116",
+        "lat": 19.060817305983413,
+        "lon": -100.25611788812864,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "16041": {
+        "name": "Irimbo",
+        "state": "Michoac\u00e1n de Ocampo",
+        "code": "16041",
+        "lat": 19.716801236585308,
+        "lon": -100.46799664714091,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "17004": {
+        "name": "Ayala",
+        "state": "Morelos",
+        "code": "17004",
+        "lat": 18.71621710699534,
+        "lon": -98.97896831192682,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "17004",
+                "toMuniCode": "17019",
+                "distance": 11.239122502396869
+            }
+        ]
+    },
+    "17010": {
+        "name": "Jantetelco",
+        "state": "Morelos",
+        "code": "17010",
+        "lat": 18.685408619427776,
+        "lon": -98.76471121062026,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "17011": {
+        "name": "Jiutepec",
+        "state": "Morelos",
+        "code": "17011",
+        "lat": 18.885158174297498,
+        "lon": -99.16645800138133,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "17019": {
+        "name": "Tepalcingo",
+        "state": "Morelos",
+        "code": "17019",
+        "lat": 18.574776430941025,
+        "lon": -98.89425112899166,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "17019",
+                "toMuniCode": "17004",
+                "distance": 11.239122502396869
+            }
+        ]
+    },
+    "19023": {
+        "name": "General Trevi\u00f1o",
+        "state": "Nuevo Le\u00f3n",
+        "code": "19023",
+        "lat": 26.212648788003868,
+        "lon": -99.44596500509539,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20017": {
+        "name": "La Compa\u00f1\u00eda",
+        "state": "Oaxaca",
+        "code": "20017",
+        "lat": 16.57979990459216,
+        "lon": -96.85145687913256,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20027": {
+        "name": "Chiquihuitl\u00e1n de Benito Ju\u00e1rez",
+        "state": "Oaxaca",
+        "code": "20027",
+        "lat": 17.992471655954773,
+        "lon": -96.74874232120855,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20039": {
+        "name": "Heroica Ciudad de Huajuapan de Le\u00f3n",
+        "state": "Oaxaca",
+        "code": "20039",
+        "lat": 17.855143778959334,
+        "lon": -97.79984955384728,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20051": {
+        "name": "Magdalena Teitipac",
+        "state": "Oaxaca",
+        "code": "20051",
+        "lat": 16.890166459182264,
+        "lon": -96.55748962549754,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20070": {
+        "name": "Pinotepa de Don Luis",
+        "state": "Oaxaca",
+        "code": "20070",
+        "lat": 16.40368037012715,
+        "lon": -97.96606795844521,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "20070",
+                "toMuniCode": "20482",
+                "distance": 12.859425202365305
+            }
+        ]
+    },
+    "20084": {
+        "name": "San Agust\u00edn Etla",
+        "state": "Oaxaca",
+        "code": "20084",
+        "lat": 17.201261321292268,
+        "lon": -96.7182579920247,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20088": {
+        "name": "San Andr\u00e9s Cabecera Nueva",
+        "state": "Oaxaca",
+        "code": "20088",
+        "lat": 16.847434493079234,
+        "lon": -97.79208506512383,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20115": {
+        "name": "San Bartolo Coyotepec",
+        "state": "Oaxaca",
+        "code": "20115",
+        "lat": 16.941142337762283,
+        "lon": -96.69561164371095,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20126": {
+        "name": "San Crist\u00f3bal Amatl\u00e1n",
+        "state": "Oaxaca",
+        "code": "20126",
+        "lat": 16.307320430835368,
+        "lon": -96.38300664871466,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20135": {
+        "name": "San Felipe Tejal\u00e1pam",
+        "state": "Oaxaca",
+        "code": "20135",
+        "lat": 17.092898987858387,
+        "lon": -96.88523367631326,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20138": {
+        "name": "San Francisco Cajonos",
+        "state": "Oaxaca",
+        "code": "20138",
+        "lat": 17.18086125148771,
+        "lon": -96.26464041181119,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20142": {
+        "name": "San Francisco Huehuetl\u00e1n",
+        "state": "Oaxaca",
+        "code": "20142",
+        "lat": 18.19523927834709,
+        "lon": -96.9361816296878,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20151": {
+        "name": "San Francisco Teopan",
+        "state": "Oaxaca",
+        "code": "20151",
+        "lat": 17.89041262942221,
+        "lon": -97.54353016026465,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20165": {
+        "name": "San Jos\u00e9 Ayuquila",
+        "state": "Oaxaca",
+        "code": "20165",
+        "lat": 17.95442305122787,
+        "lon": -97.97216844638557,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20190": {
+        "name": "San Juan Cotzoc\u00f3n",
+        "state": "Oaxaca",
+        "code": "20190",
+        "lat": 17.318348525397578,
+        "lon": -95.49676965455828,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20194": {
+        "name": "San Juan del R\u00edo",
+        "state": "Oaxaca",
+        "code": "20194",
+        "lat": 16.89177705893545,
+        "lon": -96.1613483514073,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20201": {
+        "name": "San Juan Juquila Vijanos",
+        "state": "Oaxaca",
+        "code": "20201",
+        "lat": 17.32400842395911,
+        "lon": -96.30172934562862,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20239": {
+        "name": "San Mart\u00edn Huamel\u00falpam",
+        "state": "Oaxaca",
+        "code": "20239",
+        "lat": 17.396295222205655,
+        "lon": -97.60896397491842,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20268": {
+        "name": "San Miguel Ejutla",
+        "state": "Oaxaca",
+        "code": "20268",
+        "lat": 16.596192706389918,
+        "lon": -96.73660538756548,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20275": {
+        "name": "San Miguel Quetzaltepec",
+        "state": "Oaxaca",
+        "code": "20275",
+        "lat": 16.97567317307696,
+        "lon": -95.78021942629698,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20280": {
+        "name": "Villa Talea de Castro",
+        "state": "Oaxaca",
+        "code": "20280",
+        "lat": 17.367384974030756,
+        "lon": -96.23183564098274,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20307": {
+        "name": "San Pedro Huamelula",
+        "state": "Oaxaca",
+        "code": "20307",
+        "lat": 15.974164433595588,
+        "lon": -95.7823643388306,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20352": {
+        "name": "San Sim\u00f3n Zahuatl\u00e1n",
+        "state": "Oaxaca",
+        "code": "20352",
+        "lat": 17.83536874135932,
+        "lon": -97.99814711557484,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "20352",
+                "toMuniCode": "20529",
+                "distance": 4.380496076428538
+            }
+        ]
+    },
+    "20400": {
+        "name": "Santa Mar\u00eda Camotl\u00e1n",
+        "state": "Oaxaca",
+        "code": "20400",
+        "lat": 17.869617846346234,
+        "lon": -97.64995399436611,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20404": {
+        "name": "Santa Mar\u00eda Chacho\u00e1pam",
+        "state": "Oaxaca",
+        "code": "20404",
+        "lat": 17.56576318320521,
+        "lon": -97.26064735630696,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20414": {
+        "name": "Santa Mar\u00eda Huazolotitl\u00e1n",
+        "state": "Oaxaca",
+        "code": "20414",
+        "lat": 16.20861794922669,
+        "lon": -97.92639130625363,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20426": {
+        "name": "Santa Mar\u00eda Pe\u00f1oles",
+        "state": "Oaxaca",
+        "code": "20426",
+        "lat": 17.048442363357147,
+        "lon": -97.03343089841789,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20437": {
+        "name": "Santa Mar\u00eda Tlahuitoltepec",
+        "state": "Oaxaca",
+        "code": "20437",
+        "lat": 17.11428661490712,
+        "lon": -96.05367275748326,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20447": {
+        "name": "Santa Mar\u00eda Zacatepec",
+        "state": "Oaxaca",
+        "code": "20447",
+        "lat": 16.778716913138545,
+        "lon": -97.97374225342669,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "20447",
+                "toMuniCode": "12071",
+                "distance": 13.663174233012034
+            }
+        ]
+    },
+    "20482": {
+        "name": "Santiago Pinotepa Nacional",
+        "state": "Oaxaca",
+        "code": "20482",
+        "lat": 16.292322825081655,
+        "lon": -98.12142679638183,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "20482",
+                "toMuniCode": "20070",
+                "distance": 12.859425202365305
+            }
+        ]
+    },
+    "20483": {
+        "name": "Santiago Suchilquitongo",
+        "state": "Oaxaca",
+        "code": "20483",
+        "lat": 17.231316201753888,
+        "lon": -96.9103926321898,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20529": {
+        "name": "Santos Reyes Yucun\u00e1",
+        "state": "Oaxaca",
+        "code": "20529",
+        "lat": 17.772415397949544,
+        "lon": -98.0059136901694,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "20529",
+                "toMuniCode": "20352",
+                "distance": 4.380496076428538
+            }
+        ]
+    },
+    "20543": {
+        "name": "Tataltepec de Vald\u00e9s",
+        "state": "Oaxaca",
+        "code": "20543",
+        "lat": 16.309653237463237,
+        "lon": -97.53494534634397,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20556": {
+        "name": "La Trinidad Vista Hermosa",
+        "state": "Oaxaca",
+        "code": "20556",
+        "lat": 17.777176063595483,
+        "lon": -97.50146924535582,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "20567": {
+        "name": "Zapotitl\u00e1n Lagunas",
+        "state": "Oaxaca",
+        "code": "20567",
+        "lat": 17.776174408281005,
+        "lon": -98.39696035474071,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21057": {
+        "name": "Honey",
+        "state": "Puebla",
+        "code": "21057",
+        "lat": 20.260156152891394,
+        "lon": -98.23887035041191,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21075": {
+        "name": "Hueyapan",
+        "state": "Puebla",
+        "code": "21075",
+        "lat": 19.921820845847588,
+        "lon": -97.40113389208858,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21095": {
+        "name": "La Magdalena Tlatlauquitepec",
+        "state": "Puebla",
+        "code": "21095",
+        "lat": 18.74182546484724,
+        "lon": -98.10248204902109,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21111": {
+        "name": "Pantepec",
+        "state": "Puebla",
+        "code": "21111",
+        "lat": 20.55490510957446,
+        "lon": -97.87682818865478,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21152": {
+        "name": "Soltepec",
+        "state": "Puebla",
+        "code": "21152",
+        "lat": 19.12065973998027,
+        "lon": -97.74608872680186,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21154": {
+        "name": "Tecamachalco",
+        "state": "Puebla",
+        "code": "21154",
+        "lat": 18.859297476822604,
+        "lon": -97.73122120613537,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21164": {
+        "name": "Tepeaca",
+        "state": "Puebla",
+        "code": "21164",
+        "lat": 19.011934148161693,
+        "lon": -97.87616300110298,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21183": {
+        "name": "Tlaola",
+        "state": "Puebla",
+        "code": "21183",
+        "lat": 20.16730608935935,
+        "lon": -97.90981023860098,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "21186": {
+        "name": "Tlatlauquitepec",
+        "state": "Puebla",
+        "code": "21186",
+        "lat": 19.842143155670062,
+        "lon": -97.49934538394245,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "22016": {
+        "name": "San Juan del R\u00edo",
+        "state": "Quer\u00e9taro",
+        "code": "22016",
+        "lat": 20.368911000084974,
+        "lon": -100.00038091696156,
+        "hasSupercharger": true,
+        "edges": []
+    },
+    "25004": {
+        "name": "Concordia",
+        "state": "Sinaloa",
+        "code": "25004",
+        "lat": 23.414167927027965,
+        "lon": -105.99178810935089,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "25004",
+                "toMuniCode": "25012",
+                "distance": 20.272462447532767
+            }
+        ]
+    },
+    "25012": {
+        "name": "Mazatl\u00e1n",
+        "state": "Sinaloa",
+        "code": "25012",
+        "lat": 23.468308206524924,
+        "lon": -106.30602766579905,
+        "hasSupercharger": true,
+        "edges": [
+            {
+                "fromMuniCode": "25012",
+                "toMuniCode": "25004",
+                "distance": 20.272462447532767
+            }
+        ]
+    },
+    "25018": {
+        "name": "Navolato",
+        "state": "Sinaloa",
+        "code": "25018",
+        "lat": 24.723190631537612,
+        "lon": -107.76482087819412,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "26013": {
+        "name": "Ban\u00e1michi",
+        "state": "Sonora",
+        "code": "26013",
+        "lat": 30.061011245489986,
+        "lon": -110.27327000707037,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "26027": {
+        "name": "Fronteras",
+        "state": "Sonora",
+        "code": "26027",
+        "lat": 30.84851769724996,
+        "lon": -109.64791036699869,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "26058": {
+        "name": "Santa Ana",
+        "state": "Sonora",
+        "code": "26058",
+        "lat": 30.451641200056862,
+        "lon": -111.05898783407885,
+        "hasSupercharger": true,
+        "edges": []
+    },
+    "27007": {
+        "name": "Emiliano Zapata",
+        "state": "Tabasco",
+        "code": "27007",
+        "lat": 17.70512282447501,
+        "lon": -91.67578209147798,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "28005": {
+        "name": "Burgos",
+        "state": "Tamaulipas",
+        "code": "28005",
+        "lat": 24.928579025318417,
+        "lon": -98.84645997443482,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "28007": {
+        "name": "Camargo",
+        "state": "Tamaulipas",
+        "code": "28007",
+        "lat": 26.183648787371613,
+        "lon": -98.85907506063825,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "28007",
+                "toMuniCode": "28025",
+                "distance": 13.461579231803515
+            }
+        ]
+    },
+    "28025": {
+        "name": "Miguel Alem\u00e1n",
+        "state": "Tamaulipas",
+        "code": "28025",
+        "lat": 26.238625001356407,
+        "lon": -99.06736409721805,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "28025",
+                "toMuniCode": "28007",
+                "distance": 13.461579231803515
+            }
+        ]
+    },
+    "29005": {
+        "name": "Apizaco",
+        "state": "Tlaxcala",
+        "code": "29005",
+        "lat": 19.423518347591656,
+        "lon": -98.12709890496618,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "29042": {
+        "name": "Xicohtzinco",
+        "state": "Tlaxcala",
+        "code": "29042",
+        "lat": 19.17055312800518,
+        "lon": -98.2410495190256,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "29051": {
+        "name": "San Jer\u00f3nimo Zacualpan",
+        "state": "Tlaxcala",
+        "code": "29051",
+        "lat": 19.2481544805331,
+        "lon": -98.26413441658873,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "30080": {
+        "name": "Ixhuatl\u00e1n del Caf\u00e9",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30080",
+        "lat": 19.03740068195637,
+        "lon": -96.93083140254224,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "30080",
+                "toMuniCode": "30186",
+                "distance": 4.445113534186395
+            }
+        ]
+    },
+    "30098": {
+        "name": "Magdalena",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30098",
+        "lat": 18.7672077074491,
+        "lon": -97.04618212580829,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "30124": {
+        "name": "Papantla",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30124",
+        "lat": 20.410901594008713,
+        "lon": -97.28633248713207,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "30141": {
+        "name": "San Andr\u00e9s Tuxtla",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30141",
+        "lat": 18.467262743465138,
+        "lon": -95.22219276504447,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "30186": {
+        "name": "Tomatl\u00e1n",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30186",
+        "lat": 19.021851092834574,
+        "lon": -96.9968527892783,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "30186",
+                "toMuniCode": "30080",
+                "distance": 4.445113534186395
+            }
+        ]
+    },
+    "30194": {
+        "name": "Villa Aldama",
+        "state": "Veracruz de Ignacio de la Llave",
+        "code": "30194",
+        "lat": 19.65194308607204,
+        "lon": -97.20292376093495,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "31021": {
+        "name": "Chichimil\u00e1",
+        "state": "Yucat\u00e1n",
+        "code": "31021",
+        "lat": 20.437091653021906,
+        "lon": -88.18155066211705,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "31031": {
+        "name": "Dzoncauich",
+        "state": "Yucat\u00e1n",
+        "code": "31031",
+        "lat": 21.084217393814818,
+        "lon": -88.8397910520288,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "31078": {
+        "name": "Tekant\u00f3",
+        "state": "Yucat\u00e1n",
+        "code": "31078",
+        "lat": 21.00615781949112,
+        "lon": -89.10192411527984,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "31082": {
+        "name": "Telchac Pueblo",
+        "state": "Yucat\u00e1n",
+        "code": "31082",
+        "lat": 21.21748245717705,
+        "lon": -89.25570629054205,
+        "hasSupercharger": false,
+        "edges": []
+    },
+    "31092": {
+        "name": "Tixcacalcupul",
+        "state": "Yucat\u00e1n",
+        "code": "31092",
+        "lat": 20.391673891995147,
+        "lon": -88.32315196840695,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "31092",
+                "toMuniCode": "31021",
+                "distance": 9.693423193096683
+            }
+        ]
+    }
+}
