@@ -12,14 +12,11 @@ from definitions import (
 
 class FloydWarshall(Algorithm):
     @staticmethod
-        
     def getShortestPath(
         startingCode: str, endingCode: str, graph: Graph
     ) -> Optional[Route]:
         # Make adjacency matrix with all infinity values
         numMuni: int = len(graph)
-        print("Number municipalities = {}".format(numMuni))
-
         adjMatrix: list[list[float]] = [
             [float("inf")] * numMuni for _ in range(numMuni)
         ]
@@ -28,19 +25,12 @@ class FloydWarshall(Algorithm):
         for i in range(numMuni):
             adjMatrix[i][i] = 0
 
-        #create array of 100 muni codes
-        arrayOfMuniCodes = []
-        for muni in graph.allMunicipalities:
-            arrayOfMuniCodes.append(muni.code)   
-
         # Fill adjMatrix with known values
         for muni in graph.allMunicipalities:
             index = muni.index
             for edge in graph.getMunicipalityEdges(muni.code):
-                neighborCode = graph[edge.toMuniCode].code
-                if neighborCode in arrayOfMuniCodes:
-                    neighborIndex = graph[edge.toMuniCode].index
-                    adjMatrix[index][neighborIndex] = edge.distance
+                neighborIndex = graph[edge.toMuniCode].index
+                adjMatrix[index][neighborIndex] = edge.distance
 
         # Start of Floyd Warshall's algorithm
         for i in range(numMuni):
@@ -64,41 +54,37 @@ class FloydWarshall(Algorithm):
         while nextMuni.index != endMuni.index and not exceededRange:
             for neighbor in graph.getMunicipalityNeighbors(nextMuni.code):
                 neighborMuni: Municipality = graph[neighbor]
-                
-                #check if neighbor exists
-                if neighborMuni.index in arrayOfMuniCodes:
+                if (
+                    adjMatrix[nextMuni.index][neighborMuni.index]
+                    + adjMatrix[neighborMuni.index][endMuni.index]
+                    == adjMatrix[nextMuni.index][endMuni.index]
+                ):
 
-                    if (
-                        adjMatrix[nextMuni.index][neighborMuni.index]
-                        + adjMatrix[neighborMuni.index][endMuni.index]
-                        == adjMatrix[nextMuni.index][endMuni.index]
-                    ):
-
-                        if not neighborMuni.hasSupercharger:
-                            distWithoutCharge += adjMatrix[nextMuni.index][
-                                neighborMuni.index
-                            ]
-                            route.addStop(
-                                RouteStop(
-                                    neighbor, adjMatrix[nextMuni.index][neighborMuni.index]
-                                )
+                    if not neighborMuni.hasSupercharger:
+                        distWithoutCharge += adjMatrix[nextMuni.index][
+                            neighborMuni.index
+                        ]
+                        route.addStop(
+                            RouteStop(
+                                neighbor, adjMatrix[nextMuni.index][neighborMuni.index]
                             )
-                        else:
-                            distWithoutCharge = 0
-                            route.addStop(
-                                RouteStop(
-                                    neighbor,
-                                    adjMatrix[nextMuni.index][neighborMuni.index],
-                                    True,
-                                )
+                        )
+                    else:
+                        distWithoutCharge = 0
+                        route.addStop(
+                            RouteStop(
+                                neighbor,
+                                adjMatrix[nextMuni.index][neighborMuni.index],
+                                True,
                             )
+                        )
 
-                        if distWithoutCharge > MAX_RANGE:
-                            exceededRange = True
-                            break
-
-                        nextMuni = neighborMuni
+                    if distWithoutCharge > MAX_RANGE:
+                        exceededRange = True
                         break
+
+                    nextMuni = neighborMuni
+                    break
 
         if exceededRange:
             print("ERROR: Exceeded range")
