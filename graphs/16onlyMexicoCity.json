@@ -1,0 +1,542 @@
+{
+    "09006": {
+        "name": "Iztacalco",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09006",
+        "lat": 19.39691113651154,
+        "lon": -99.09433651256917,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09017",
+                "distance": 2.322148307834917
+            },
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09007",
+                "distance": 4.107941342510199
+            },
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09015",
+                "distance": 4.288507826822974
+            },
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09014",
+                "distance": 4.497063055173258
+            },
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09005",
+                "distance": 7.536599627799899
+            },
+            {
+                "fromMuniCode": "09006",
+                "toMuniCode": "09003",
+                "distance": 6.075633414765004
+            }
+        ]
+    },
+    "09011": {
+        "name": "Tl\u00e1huac",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09011",
+        "lat": 19.276998976079277,
+        "lon": -99.00281624486716,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09011",
+                "toMuniCode": "09007",
+                "distance": 6.10495087840478
+            },
+            {
+                "fromMuniCode": "09011",
+                "toMuniCode": "09013",
+                "distance": 6.120885391370377
+            },
+            {
+                "fromMuniCode": "09011",
+                "toMuniCode": "09009",
+                "distance": 10.013930739372656
+            }
+        ]
+    },
+    "09008": {
+        "name": "La Magdalena Contreras",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09008",
+        "lat": 19.268974789890645,
+        "lon": -99.26841527369541,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09008",
+                "toMuniCode": "09004",
+                "distance": 4.724375176514869
+            },
+            {
+                "fromMuniCode": "09008",
+                "toMuniCode": "09010",
+                "distance": 4.85363825624861
+            },
+            {
+                "fromMuniCode": "09008",
+                "toMuniCode": "09012",
+                "distance": 6.34803376712856
+            }
+        ]
+    },
+    "09016": {
+        "name": "Miguel Hidalgo",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09016",
+        "lat": 19.428065392943626,
+        "lon": -99.20458879197355,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09016",
+                "toMuniCode": "09015",
+                "distance": 3.6266128145305174
+            },
+            {
+                "fromMuniCode": "09016",
+                "toMuniCode": "09002",
+                "distance": 4.219744839532586
+            },
+            {
+                "fromMuniCode": "09016",
+                "toMuniCode": "09014",
+                "distance": 4.331805325065379
+            },
+            {
+                "fromMuniCode": "09016",
+                "toMuniCode": "09017",
+                "distance": 7.267843590624913
+            },
+            {
+                "fromMuniCode": "09016",
+                "toMuniCode": "09003",
+                "distance": 7.848162991924591
+            }
+        ]
+    },
+    "09015": {
+        "name": "Cuauht\u00e9moc",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09015",
+        "lat": 19.431374348097336,
+        "lon": -99.14905307833148,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09006",
+                "distance": 4.288507826822974
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09016",
+                "distance": 3.6266128145305174
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09014",
+                "distance": 3.593246805989506
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09017",
+                "distance": 3.6469737282007517
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09002",
+                "distance": 4.305870123981482
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09005",
+                "distance": 5.4690227490584915
+            },
+            {
+                "fromMuniCode": "09015",
+                "toMuniCode": "09003",
+                "distance": 7.236460875265884
+            }
+        ]
+    },
+    "09004": {
+        "name": "Cuajimalpa de Morelos",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09004",
+        "lat": 19.32431769429922,
+        "lon": -99.31093559934725,
+        "hasSupercharger": true,
+        "edges": [
+            {
+                "fromMuniCode": "09004",
+                "toMuniCode": "09008",
+                "distance": 4.724375176514869
+            },
+            {
+                "fromMuniCode": "09004",
+                "toMuniCode": "09010",
+                "distance": 4.260945388556959
+            }
+        ]
+    },
+    "09002": {
+        "name": "Azcapotzalco",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09002",
+        "lat": 19.485326983699494,
+        "lon": -99.1821047654247,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09002",
+                "toMuniCode": "09016",
+                "distance": 4.219744839532586
+            },
+            {
+                "fromMuniCode": "09002",
+                "toMuniCode": "09015",
+                "distance": 4.305870123981482
+            },
+            {
+                "fromMuniCode": "09002",
+                "toMuniCode": "09005",
+                "distance": 4.505551566220764
+            },
+            {
+                "fromMuniCode": "09002",
+                "toMuniCode": "09017",
+                "distance": 6.927841187570802
+            }
+        ]
+    },
+    "09012": {
+        "name": "Tlalpan",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09012",
+        "lat": 19.198340149310447,
+        "lon": -99.20622085572057,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09012",
+                "toMuniCode": "09008",
+                "distance": 6.34803376712856
+            },
+            {
+                "fromMuniCode": "09012",
+                "toMuniCode": "09013",
+                "distance": 8.223424474925901
+            },
+            {
+                "fromMuniCode": "09012",
+                "toMuniCode": "09003",
+                "distance": 9.587803819153251
+            },
+            {
+                "fromMuniCode": "09012",
+                "toMuniCode": "09010",
+                "distance": 9.88744553197461
+            }
+        ]
+    },
+    "09014": {
+        "name": "Benito Ju\u00e1rez",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09014",
+        "lat": 19.380643085299134,
+        "lon": -99.16113118441126,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09016",
+                "distance": 4.331805325065379
+            },
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09015",
+                "distance": 3.593246805989506
+            },
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09003",
+                "distance": 3.795367034199649
+            },
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09006",
+                "distance": 4.497063055173258
+            },
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09017",
+                "distance": 5.615262797680235
+            },
+            {
+                "fromMuniCode": "09014",
+                "toMuniCode": "09010",
+                "distance": 6.375947151367898
+            }
+        ]
+    },
+    "09010": {
+        "name": "\u00c1lvaro Obreg\u00f3n",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09010",
+        "lat": 19.336184298231828,
+        "lon": -99.24681750774475,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09010",
+                "toMuniCode": "09008",
+                "distance": 4.85363825624861
+            },
+            {
+                "fromMuniCode": "09010",
+                "toMuniCode": "09004",
+                "distance": 4.260945388556959
+            },
+            {
+                "fromMuniCode": "09010",
+                "toMuniCode": "09012",
+                "distance": 9.88744553197461
+            },
+            {
+                "fromMuniCode": "09010",
+                "toMuniCode": "09003",
+                "distance": 6.32345901088047
+            },
+            {
+                "fromMuniCode": "09010",
+                "toMuniCode": "09014",
+                "distance": 6.375947151367898
+            }
+        ]
+    },
+    "09007": {
+        "name": "Iztapalapa",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09007",
+        "lat": 19.34916750665097,
+        "lon": -99.0568003238964,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09007",
+                "toMuniCode": "09006",
+                "distance": 4.107941342510199
+            },
+            {
+                "fromMuniCode": "09007",
+                "toMuniCode": "09011",
+                "distance": 6.10495087840478
+            },
+            {
+                "fromMuniCode": "09007",
+                "toMuniCode": "09017",
+                "distance": 6.098104244573907
+            },
+            {
+                "fromMuniCode": "09007",
+                "toMuniCode": "09003",
+                "distance": 6.296898864400011
+            },
+            {
+                "fromMuniCode": "09007",
+                "toMuniCode": "09013",
+                "distance": 7.514633526386179
+            }
+        ]
+    },
+    "09017": {
+        "name": "Venustiano Carranza",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09017",
+        "lat": 19.430492627924078,
+        "lon": -99.0931016087812,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09006",
+                "distance": 2.322148307834917
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09015",
+                "distance": 3.6469737282007517
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09002",
+                "distance": 6.927841187570802
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09014",
+                "distance": 5.615262797680235
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09007",
+                "distance": 6.098104244573907
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09005",
+                "distance": 5.2960335862575825
+            },
+            {
+                "fromMuniCode": "09017",
+                "toMuniCode": "09016",
+                "distance": 7.267843590624913
+            }
+        ]
+    },
+    "09013": {
+        "name": "Xochimilco",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09013",
+        "lat": 19.24514558219431,
+        "lon": -99.09036004795671,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09013",
+                "toMuniCode": "09011",
+                "distance": 6.120885391370377
+            },
+            {
+                "fromMuniCode": "09013",
+                "toMuniCode": "09012",
+                "distance": 8.223424474925901
+            },
+            {
+                "fromMuniCode": "09013",
+                "toMuniCode": "09003",
+                "distance": 6.860543343736236
+            },
+            {
+                "fromMuniCode": "09013",
+                "toMuniCode": "09007",
+                "distance": 7.514633526386179
+            },
+            {
+                "fromMuniCode": "09013",
+                "toMuniCode": "09009",
+                "distance": 7.7404908117395586
+            }
+        ]
+    },
+    "09005": {
+        "name": "Gustavo A. Madero",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09005",
+        "lat": 19.50406108075585,
+        "lon": -99.115861080095,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09005",
+                "toMuniCode": "09002",
+                "distance": 4.505551566220764
+            },
+            {
+                "fromMuniCode": "09005",
+                "toMuniCode": "09017",
+                "distance": 5.2960335862575825
+            },
+            {
+                "fromMuniCode": "09005",
+                "toMuniCode": "09015",
+                "distance": 5.4690227490584915
+            },
+            {
+                "fromMuniCode": "09005",
+                "toMuniCode": "09006",
+                "distance": 7.536599627799899
+            }
+        ]
+    },
+    "09003": {
+        "name": "Coyoac\u00e1n",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09003",
+        "lat": 19.326669573474458,
+        "lon": -99.15037508813221,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09012",
+                "distance": 9.587803819153251
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09014",
+                "distance": 3.795367034199649
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09010",
+                "distance": 6.32345901088047
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09007",
+                "distance": 6.296898864400011
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09013",
+                "distance": 6.860543343736236
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09006",
+                "distance": 6.075633414765004
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09015",
+                "distance": 7.236460875265884
+            },
+            {
+                "fromMuniCode": "09003",
+                "toMuniCode": "09016",
+                "distance": 7.848162991924591
+            }
+        ]
+    },
+    "09009": {
+        "name": "Milpa Alta",
+        "state": "Ciudad de M\u00e9xico",
+        "code": "09009",
+        "lat": 19.139456201860405,
+        "lon": -99.05109682366295,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "09009",
+                "toMuniCode": "09013",
+                "distance": 7.7404908117395586
+            },
+            {
+                "fromMuniCode": "09009",
+                "toMuniCode": "09011",
+                "distance": 10.013930739372656
+            }
+        ]
+    }
+}

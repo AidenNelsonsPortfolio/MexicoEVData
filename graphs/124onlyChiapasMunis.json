@@ -1,0 +1,4682 @@
+{
+    "07051": {
+        "name": "Mapastepec",
+        "state": "Chiapas",
+        "code": "07051",
+        "lat": 15.460924811691712,
+        "lon": -92.89171531178879,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07051",
+                "toMuniCode": "07001",
+                "distance": 14.359817486283953
+            },
+            {
+                "fromMuniCode": "07051",
+                "toMuniCode": "07003",
+                "distance": 17.69684989542627
+            },
+            {
+                "fromMuniCode": "07051",
+                "toMuniCode": "07120",
+                "distance": 19.4314956110113
+            },
+            {
+                "fromMuniCode": "07051",
+                "toMuniCode": "07069",
+                "distance": 24.671283282948867
+            }
+        ]
+    },
+    "07076": {
+        "name": "Sabanilla",
+        "state": "Chiapas",
+        "code": "07076",
+        "lat": 17.31982367250815,
+        "lon": -92.61075877375268,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07076",
+                "toMuniCode": "07039",
+                "distance": 7.6751689995095775
+            },
+            {
+                "fromMuniCode": "07076",
+                "toMuniCode": "07096",
+                "distance": 9.205719856960558
+            },
+            {
+                "fromMuniCode": "07076",
+                "toMuniCode": "07081",
+                "distance": 12.536808817628705
+            }
+        ]
+    },
+    "07111": {
+        "name": "Zinacant\u00e1n",
+        "state": "Chiapas",
+        "code": "07111",
+        "lat": 16.72191551046949,
+        "lon": -92.78198278131104,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07111",
+                "toMuniCode": "07110",
+                "distance": 7.879081298436414
+            },
+            {
+                "fromMuniCode": "07111",
+                "toMuniCode": "07023",
+                "distance": 9.52570813888093
+            },
+            {
+                "fromMuniCode": "07111",
+                "toMuniCode": "07044",
+                "distance": 10.097883432164545
+            },
+            {
+                "fromMuniCode": "07111",
+                "toMuniCode": "07028",
+                "distance": 12.18490936916275
+            },
+            {
+                "fromMuniCode": "07111",
+                "toMuniCode": "07027",
+                "distance": 15.117943795324907
+            }
+        ]
+    },
+    "07002": {
+        "name": "Acala",
+        "state": "Chiapas",
+        "code": "07002",
+        "lat": 16.551604863450397,
+        "lon": -92.81465488307506,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07123",
+                "distance": 5.79461296290296
+            },
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07028",
+                "distance": 5.878713359425733
+            },
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07110",
+                "distance": 7.759680884350325
+            },
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07122",
+                "distance": 18.678155482337697
+            },
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07098",
+                "distance": 10.553467818861339
+            },
+            {
+                "fromMuniCode": "07002",
+                "toMuniCode": "07027",
+                "distance": 11.346425924113928
+            }
+        ]
+    },
+    "07024": {
+        "name": "Chanal",
+        "state": "Chiapas",
+        "code": "07024",
+        "lat": 16.611532266997166,
+        "lon": -92.2169707321375,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07024",
+                "toMuniCode": "07064",
+                "distance": 12.32082028217467
+            },
+            {
+                "fromMuniCode": "07024",
+                "toMuniCode": "07038",
+                "distance": 13.377811850711552
+            },
+            {
+                "fromMuniCode": "07024",
+                "toMuniCode": "07007",
+                "distance": 13.563452822855288
+            },
+            {
+                "fromMuniCode": "07024",
+                "toMuniCode": "07019",
+                "distance": 21.890154950666226
+            },
+            {
+                "fromMuniCode": "07024",
+                "toMuniCode": "07004",
+                "distance": 23.723105347600868
+            }
+        ]
+    },
+    "07110": {
+        "name": "San Lucas",
+        "state": "Chiapas",
+        "code": "07110",
+        "lat": 16.62246967875211,
+        "lon": -92.72377725572089,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07111",
+                "distance": 7.879081298436414
+            },
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07002",
+                "distance": 7.759680884350325
+            },
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07028",
+                "distance": 4.735894772274097
+            },
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07098",
+                "distance": 8.53631726738648
+            },
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07078",
+                "distance": 9.664401889858967
+            },
+            {
+                "fromMuniCode": "07110",
+                "toMuniCode": "07023",
+                "distance": 13.909659268094453
+            }
+        ]
+    },
+    "07113": {
+        "name": "Aldama",
+        "state": "Chiapas",
+        "code": "07113",
+        "lat": 16.92182687678132,
+        "lon": -92.69017480349272,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07113",
+                "toMuniCode": "07119",
+                "distance": 2.8149300362425964
+            },
+            {
+                "fromMuniCode": "07113",
+                "toMuniCode": "07049",
+                "distance": 5.721684789648706
+            },
+            {
+                "fromMuniCode": "07113",
+                "toMuniCode": "07023",
+                "distance": 7.111977561536069
+            },
+            {
+                "fromMuniCode": "07113",
+                "toMuniCode": "07014",
+                "distance": 8.314012629183587
+            },
+            {
+                "fromMuniCode": "07113",
+                "toMuniCode": "07026",
+                "distance": 8.15459644759784
+            }
+        ]
+    },
+    "07029": {
+        "name": "Chicoas\u00e9n",
+        "state": "Chiapas",
+        "code": "07029",
+        "lat": 16.995331652527017,
+        "lon": -93.11151755513346,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07029",
+                "toMuniCode": "07063",
+                "distance": 7.15552014658069
+            },
+            {
+                "fromMuniCode": "07029",
+                "toMuniCode": "07079",
+                "distance": 8.624193429338419
+            },
+            {
+                "fromMuniCode": "07029",
+                "toMuniCode": "07018",
+                "distance": 8.708353384874497
+            },
+            {
+                "fromMuniCode": "07029",
+                "toMuniCode": "07013",
+                "distance": 10.176458918800733
+            },
+            {
+                "fromMuniCode": "07029",
+                "toMuniCode": "07085",
+                "distance": 9.429910722869513
+            }
+        ]
+    },
+    "07083": {
+        "name": "Socoltenango",
+        "state": "Chiapas",
+        "code": "07083",
+        "lat": 16.10642730846788,
+        "lon": -92.37594436696509,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07083",
+                "toMuniCode": "07104",
+                "distance": 8.684164997467525
+            },
+            {
+                "fromMuniCode": "07083",
+                "toMuniCode": "07075",
+                "distance": 17.906116131982277
+            },
+            {
+                "fromMuniCode": "07083",
+                "toMuniCode": "07019",
+                "distance": 18.55022103538841
+            }
+        ]
+    },
+    "07103": {
+        "name": "Tuzant\u00e1n",
+        "state": "Chiapas",
+        "code": "07103",
+        "lat": 15.140445596854326,
+        "lon": -92.41156273681047,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07037",
+                "distance": 9.092482576623821
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07040",
+                "distance": 9.5129580227578
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07057",
+                "distance": 13.118437968342393
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07071",
+                "distance": 13.981920324955517
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07054",
+                "distance": 18.85650813147605
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07089",
+                "distance": 15.964846153856152
+            },
+            {
+                "fromMuniCode": "07103",
+                "toMuniCode": "07102",
+                "distance": 22.175289254749046
+            }
+        ]
+    },
+    "07115": {
+        "name": "Maravilla Tenejapa",
+        "state": "Chiapas",
+        "code": "07115",
+        "lat": 16.19919390822116,
+        "lon": -91.24859465500667,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07115",
+                "toMuniCode": "07116",
+                "distance": 33.67955105400657
+            },
+            {
+                "fromMuniCode": "07115",
+                "toMuniCode": "07052",
+                "distance": 35.06705512228097
+            },
+            {
+                "fromMuniCode": "07115",
+                "toMuniCode": "07114",
+                "distance": 45.87888777235197
+            }
+        ]
+    },
+    "07013": {
+        "name": "Bochil",
+        "state": "Chiapas",
+        "code": "07013",
+        "lat": 17.01412445116183,
+        "lon": -92.95879029368162,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07013",
+                "toMuniCode": "07085",
+                "distance": 6.404263333614186
+            },
+            {
+                "fromMuniCode": "07013",
+                "toMuniCode": "07047",
+                "distance": 7.635523519048347
+            },
+            {
+                "fromMuniCode": "07013",
+                "toMuniCode": "07029",
+                "distance": 10.176458918800733
+            },
+            {
+                "fromMuniCode": "07013",
+                "toMuniCode": "07044",
+                "distance": 14.159327454144204
+            },
+            {
+                "fromMuniCode": "07013",
+                "toMuniCode": "07063",
+                "distance": 11.65323457785597
+            }
+        ]
+    },
+    "07053": {
+        "name": "Mazapa de Madero",
+        "state": "Chiapas",
+        "code": "07053",
+        "lat": 15.372767030892547,
+        "lon": -92.18576395987252,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07053",
+                "toMuniCode": "07070",
+                "distance": 6.647229130901044
+            },
+            {
+                "fromMuniCode": "07053",
+                "toMuniCode": "07010",
+                "distance": 8.383184385124355
+            },
+            {
+                "fromMuniCode": "07053",
+                "toMuniCode": "07036",
+                "distance": 9.931968723763518
+            },
+            {
+                "fromMuniCode": "07053",
+                "toMuniCode": "07057",
+                "distance": 10.529944685397409
+            },
+            {
+                "fromMuniCode": "07053",
+                "toMuniCode": "07011",
+                "distance": 17.469450115852215
+            }
+        ]
+    },
+    "07071": {
+        "name": "Villa Comaltitl\u00e1n",
+        "state": "Chiapas",
+        "code": "07071",
+        "lat": 15.165419727891962,
+        "lon": -92.61956699399462,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07071",
+                "toMuniCode": "07040",
+                "distance": 6.774763569664362
+            },
+            {
+                "fromMuniCode": "07071",
+                "toMuniCode": "07003",
+                "distance": 11.266853291867225
+            },
+            {
+                "fromMuniCode": "07071",
+                "toMuniCode": "07103",
+                "distance": 13.981920324955517
+            },
+            {
+                "fromMuniCode": "07071",
+                "toMuniCode": "07032",
+                "distance": 14.349632552127838
+            }
+        ]
+    },
+    "07094": {
+        "name": "Teopisca",
+        "state": "Chiapas",
+        "code": "07094",
+        "lat": 16.56110053072675,
+        "lon": -92.50881643014594,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07007",
+                "distance": 8.15198704499631
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07078",
+                "distance": 9.719049251148954
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07098",
+                "distance": 10.504714438641725
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07058",
+                "distance": 10.823108687113834
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07075",
+                "distance": 16.56141123569583
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07028",
+                "distance": 14.391633551615453
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07106",
+                "distance": 18.082442208286356
+            },
+            {
+                "fromMuniCode": "07094",
+                "toMuniCode": "07038",
+                "distance": 11.7037300124079
+            }
+        ]
+    },
+    "07001": {
+        "name": "Acacoyagua",
+        "state": "Chiapas",
+        "code": "07001",
+        "lat": 15.414140484007573,
+        "lon": -92.68168524373007,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07001",
+                "toMuniCode": "07051",
+                "distance": 14.359817486283953
+            },
+            {
+                "fromMuniCode": "07001",
+                "toMuniCode": "07032",
+                "distance": 8.918093675250939
+            },
+            {
+                "fromMuniCode": "07001",
+                "toMuniCode": "07120",
+                "distance": 10.3453961665174
+            },
+            {
+                "fromMuniCode": "07001",
+                "toMuniCode": "07003",
+                "distance": 14.053454635223352
+            }
+        ]
+    },
+    "07041": {
+        "name": "La Independencia",
+        "state": "Chiapas",
+        "code": "07041",
+        "lat": 16.204701793132312,
+        "lon": -91.79579683846907,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07041",
+                "toMuniCode": "07052",
+                "distance": 13.032737058422857
+            },
+            {
+                "fromMuniCode": "07041",
+                "toMuniCode": "07099",
+                "distance": 14.230166490969985
+            }
+        ]
+    },
+    "07056": {
+        "name": "Mitontic",
+        "state": "Chiapas",
+        "code": "07056",
+        "lat": 16.874812398219007,
+        "lon": -92.56309102703551,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07056",
+                "toMuniCode": "07026",
+                "distance": 5.229412774656594
+            },
+            {
+                "fromMuniCode": "07056",
+                "toMuniCode": "07093",
+                "distance": 6.676005901485432
+            },
+            {
+                "fromMuniCode": "07056",
+                "toMuniCode": "07023",
+                "distance": 8.6399553252534
+            },
+            {
+                "fromMuniCode": "07056",
+                "toMuniCode": "07066",
+                "distance": 14.381221881916137
+            },
+            {
+                "fromMuniCode": "07056",
+                "toMuniCode": "07119",
+                "distance": 11.675384474330967
+            }
+        ]
+    },
+    "07097": {
+        "name": "Tonal\u00e1",
+        "state": "Chiapas",
+        "code": "07097",
+        "lat": 15.996915309647557,
+        "lon": -93.69056802348025,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07097",
+                "toMuniCode": "07009",
+                "distance": 23.909326866316892
+            },
+            {
+                "fromMuniCode": "07097",
+                "toMuniCode": "07107",
+                "distance": 31.074340556204152
+            }
+        ]
+    },
+    "07112": {
+        "name": "San Juan Cancuc",
+        "state": "Chiapas",
+        "code": "07112",
+        "lat": 16.930158791333636,
+        "lon": -92.3916702530706,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07112",
+                "toMuniCode": "07082",
+                "distance": 7.937643035727512
+            },
+            {
+                "fromMuniCode": "07112",
+                "toMuniCode": "07093",
+                "distance": 8.552032859392922
+            },
+            {
+                "fromMuniCode": "07112",
+                "toMuniCode": "07066",
+                "distance": 10.175536494790363
+            },
+            {
+                "fromMuniCode": "07112",
+                "toMuniCode": "07064",
+                "distance": 12.885035747656039
+            },
+            {
+                "fromMuniCode": "07112",
+                "toMuniCode": "07038",
+                "distance": 16.30982599389975
+            }
+        ]
+    },
+    "07117": {
+        "name": "Montecristo de Guerrero",
+        "state": "Chiapas",
+        "code": "07117",
+        "lat": 15.671676787181445,
+        "lon": -92.66439087187447,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07117",
+                "toMuniCode": "07008",
+                "distance": 6.08175340459367
+            },
+            {
+                "fromMuniCode": "07117",
+                "toMuniCode": "07120",
+                "distance": 9.08861741296327
+            },
+            {
+                "fromMuniCode": "07117",
+                "toMuniCode": "07125",
+                "distance": 15.087034629904561
+            },
+            {
+                "fromMuniCode": "07117",
+                "toMuniCode": "07020",
+                "distance": 21.21267166202176
+            }
+        ]
+    },
+    "07123": {
+        "name": "Emiliano Zapata",
+        "state": "Chiapas",
+        "code": "07123",
+        "lat": 16.49890599248891,
+        "lon": -92.88268297056234,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07123",
+                "toMuniCode": "07002",
+                "distance": 5.79461296290296
+            },
+            {
+                "fromMuniCode": "07123",
+                "toMuniCode": "07027",
+                "distance": 9.678994513946398
+            },
+            {
+                "fromMuniCode": "07123",
+                "toMuniCode": "07028",
+                "distance": 11.059658387277441
+            },
+            {
+                "fromMuniCode": "07123",
+                "toMuniCode": "07122",
+                "distance": 13.11223121242609
+            },
+            {
+                "fromMuniCode": "07123",
+                "toMuniCode": "07086",
+                "distance": 17.83873069227117
+            }
+        ]
+    },
+    "07064": {
+        "name": "Oxchuc",
+        "state": "Chiapas",
+        "code": "07064",
+        "lat": 16.780997171702026,
+        "lon": -92.27478489176826,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07064",
+                "toMuniCode": "07024",
+                "distance": 12.32082028217467
+            },
+            {
+                "fromMuniCode": "07064",
+                "toMuniCode": "07038",
+                "distance": 10.207159578427017
+            },
+            {
+                "fromMuniCode": "07064",
+                "toMuniCode": "07112",
+                "distance": 12.885035747656039
+            },
+            {
+                "fromMuniCode": "07064",
+                "toMuniCode": "07093",
+                "distance": 13.536643235065519
+            },
+            {
+                "fromMuniCode": "07064",
+                "toMuniCode": "07004",
+                "distance": 28.497403773876933
+            }
+        ]
+    },
+    "07068": {
+        "name": "Pichucalco",
+        "state": "Chiapas",
+        "code": "07068",
+        "lat": 17.53057918081049,
+        "lon": -93.19914292583469,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07068",
+                "toMuniCode": "07088",
+                "distance": 4.501138360922583
+            },
+            {
+                "fromMuniCode": "07068",
+                "toMuniCode": "07043",
+                "distance": 10.02425169349867
+            },
+            {
+                "fromMuniCode": "07068",
+                "toMuniCode": "07048",
+                "distance": 11.676270452720669
+            },
+            {
+                "fromMuniCode": "07068",
+                "toMuniCode": "07062",
+                "distance": 14.85143934035585
+            },
+            {
+                "fromMuniCode": "07068",
+                "toMuniCode": "07074",
+                "distance": 23.143099110551915
+            }
+        ]
+    },
+    "07016": {
+        "name": "Catazaj\u00e1",
+        "state": "Chiapas",
+        "code": "07016",
+        "lat": 17.77987131026626,
+        "lon": -91.99760266040555,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07016",
+                "toMuniCode": "07050",
+                "distance": 20.168701543881294
+            },
+            {
+                "fromMuniCode": "07016",
+                "toMuniCode": "07065",
+                "distance": 26.209411973784952
+            }
+        ]
+    },
+    "07036": {
+        "name": "La Grandeza",
+        "state": "Chiapas",
+        "code": "07036",
+        "lat": 15.51299715975186,
+        "lon": -92.2184054829501,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07053",
+                "distance": 9.931968723763518
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07010",
+                "distance": 4.076633272098086
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07070",
+                "distance": 6.332840010230234
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07011",
+                "distance": 7.53759058051164
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07006",
+                "distance": 8.622535295206466
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07034",
+                "distance": 19.319795879020084
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07080",
+                "distance": 9.341496679605811
+            },
+            {
+                "fromMuniCode": "07036",
+                "toMuniCode": "07057",
+                "distance": 15.690579185187929
+            }
+        ]
+    },
+    "07050": {
+        "name": "La Libertad",
+        "state": "Chiapas",
+        "code": "07050",
+        "lat": 17.606638959876886,
+        "lon": -91.75107343329215,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07050",
+                "toMuniCode": "07016",
+                "distance": 20.168701543881294
+            },
+            {
+                "fromMuniCode": "07050",
+                "toMuniCode": "07065",
+                "distance": 11.944981080893545
+            },
+            {
+                "fromMuniCode": "07050",
+                "toMuniCode": "07077",
+                "distance": 31.004550679778017
+            }
+        ]
+    },
+    "07067": {
+        "name": "Pantepec",
+        "state": "Chiapas",
+        "code": "07067",
+        "lat": 17.18918226366831,
+        "lon": -93.05689950332945,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07073",
+                "distance": 3.873768053560064
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07090",
+                "distance": 4.237395077551719
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07091",
+                "distance": 5.7009686835130005
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07018",
+                "distance": 6.584027609256633
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07121",
+                "distance": 8.398390777832775
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07060",
+                "distance": 8.025389789352776
+            },
+            {
+                "fromMuniCode": "07067",
+                "toMuniCode": "07042",
+                "distance": 9.153978072142309
+            }
+        ]
+    },
+    "07114": {
+        "name": "Benem\u00e9rito de las Am\u00e9ricas",
+        "state": "Chiapas",
+        "code": "07114",
+        "lat": 16.281835042147204,
+        "lon": -90.56250926826696,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07114",
+                "toMuniCode": "07116",
+                "distance": 12.250063820443877
+            },
+            {
+                "fromMuniCode": "07114",
+                "toMuniCode": "07115",
+                "distance": 45.87888777235197
+            }
+        ]
+    },
+    "07125": {
+        "name": "Honduras de la Sierra",
+        "state": "Chiapas",
+        "code": "07125",
+        "lat": 15.567623489198573,
+        "lon": -92.46511373960281,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07117",
+                "distance": 15.087034629904561
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07080",
+                "distance": 7.583581865495815
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07120",
+                "distance": 10.038042573513517
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07011",
+                "distance": 15.252364403122488
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07008",
+                "distance": 19.474972907319792
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07032",
+                "distance": 15.349158191008062
+            },
+            {
+                "fromMuniCode": "07125",
+                "toMuniCode": "07030",
+                "distance": 16.733704326250916
+            }
+        ]
+    },
+    "07014": {
+        "name": "El Bosque",
+        "state": "Chiapas",
+        "code": "07014",
+        "lat": 17.031750010986816,
+        "lon": -92.7412906147667,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07119",
+                "distance": 5.841102450703464
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07049",
+                "distance": 7.779817803587188
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07113",
+                "distance": 8.314012629183587
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07022",
+                "distance": 8.587058254659977
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07118",
+                "distance": 9.383920757322903
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07081",
+                "distance": 10.670135241355094
+            },
+            {
+                "fromMuniCode": "07014",
+                "toMuniCode": "07047",
+                "distance": 9.652190629817841
+            }
+        ]
+    },
+    "07021": {
+        "name": "Copainal\u00e1",
+        "state": "Chiapas",
+        "code": "07021",
+        "lat": 17.09417601609245,
+        "lon": -93.2528604654736,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07018",
+                "distance": 8.57048315990067
+            },
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07060",
+                "distance": 10.186777238381937
+            },
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07092",
+                "distance": 10.878066547758747
+            },
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07079",
+                "distance": 12.83276734825715
+            },
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07061",
+                "distance": 24.2981540131753
+            },
+            {
+                "fromMuniCode": "07021",
+                "toMuniCode": "07063",
+                "distance": 17.71544037015733
+            }
+        ]
+    },
+    "07022": {
+        "name": "Chalchihuit\u00e1n",
+        "state": "Chiapas",
+        "code": "07022",
+        "lat": 17.021270974473488,
+        "lon": -92.61180225813543,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07022",
+                "toMuniCode": "07026",
+                "distance": 5.623977116425761
+            },
+            {
+                "fromMuniCode": "07022",
+                "toMuniCode": "07081",
+                "distance": 8.177752695931146
+            },
+            {
+                "fromMuniCode": "07022",
+                "toMuniCode": "07014",
+                "distance": 8.587058254659977
+            },
+            {
+                "fromMuniCode": "07022",
+                "toMuniCode": "07066",
+                "distance": 10.123706565992805
+            },
+            {
+                "fromMuniCode": "07022",
+                "toMuniCode": "07119",
+                "distance": 8.792493989632662
+            }
+        ]
+    },
+    "07003": {
+        "name": "Acapetahua",
+        "state": "Chiapas",
+        "code": "07003",
+        "lat": 15.231348830687386,
+        "lon": -92.77407818638095,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07051",
+                "distance": 17.69684989542627
+            },
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07071",
+                "distance": 11.266853291867225
+            },
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07001",
+                "distance": 14.053454635223352
+            },
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07032",
+                "distance": 17.080061355601604
+            },
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07040",
+                "distance": 17.774466121002874
+            },
+            {
+                "fromMuniCode": "07003",
+                "toMuniCode": "07120",
+                "distance": 24.39866518188849
+            }
+        ]
+    },
+    "07006": {
+        "name": "Amatenango de la Frontera",
+        "state": "Chiapas",
+        "code": "07006",
+        "lat": 15.556835953402219,
+        "lon": -92.09716255916558,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07006",
+                "toMuniCode": "07010",
+                "distance": 6.201884642318231
+            },
+            {
+                "fromMuniCode": "07006",
+                "toMuniCode": "07036",
+                "distance": 8.622535295206466
+            },
+            {
+                "fromMuniCode": "07006",
+                "toMuniCode": "07011",
+                "distance": 10.597014902193115
+            },
+            {
+                "fromMuniCode": "07006",
+                "toMuniCode": "07034",
+                "distance": 14.237112388079511
+            }
+        ]
+    },
+    "07034": {
+        "name": "Frontera Comalapa",
+        "state": "Chiapas",
+        "code": "07034",
+        "lat": 15.76264930690072,
+        "lon": -92.0877638924914,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07034",
+                "toMuniCode": "07006",
+                "distance": 14.237112388079511
+            },
+            {
+                "fromMuniCode": "07034",
+                "toMuniCode": "07011",
+                "distance": 14.269719589527902
+            },
+            {
+                "fromMuniCode": "07034",
+                "toMuniCode": "07036",
+                "distance": 19.319795879020084
+            },
+            {
+                "fromMuniCode": "07034",
+                "toMuniCode": "07099",
+                "distance": 22.00161217250075
+            }
+        ]
+    },
+    "07046": {
+        "name": "Jiquipilas",
+        "state": "Chiapas",
+        "code": "07046",
+        "lat": 16.522734162617503,
+        "lon": -93.67207583707984,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07046",
+                "toMuniCode": "07017",
+                "distance": 18.445947467119613
+            },
+            {
+                "fromMuniCode": "07046",
+                "toMuniCode": "07108",
+                "distance": 23.136202160221664
+            },
+            {
+                "fromMuniCode": "07046",
+                "toMuniCode": "07061",
+                "distance": 24.163890362931355
+            },
+            {
+                "fromMuniCode": "07046",
+                "toMuniCode": "07009",
+                "distance": 25.837817432137477
+            }
+        ]
+    },
+    "07049": {
+        "name": "Larr\u00e1inzar",
+        "state": "Chiapas",
+        "code": "07049",
+        "lat": 16.924382458335916,
+        "lon": -92.776674369347,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07049",
+                "toMuniCode": "07113",
+                "distance": 5.721684789648706
+            },
+            {
+                "fromMuniCode": "07049",
+                "toMuniCode": "07014",
+                "distance": 7.779817803587188
+            },
+            {
+                "fromMuniCode": "07049",
+                "toMuniCode": "07119",
+                "distance": 4.032646733482319
+            },
+            {
+                "fromMuniCode": "07049",
+                "toMuniCode": "07023",
+                "distance": 9.664829603971961
+            },
+            {
+                "fromMuniCode": "07049",
+                "toMuniCode": "07044",
+                "distance": 10.836018071560643
+            }
+        ]
+    },
+    "07107": {
+        "name": "Villa Corzo",
+        "state": "Chiapas",
+        "code": "07107",
+        "lat": 16.07734605597285,
+        "lon": -93.23025758313885,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07107",
+                "toMuniCode": "07097",
+                "distance": 31.074340556204152
+            },
+            {
+                "fromMuniCode": "07107",
+                "toMuniCode": "07108",
+                "distance": 20.931044156641903
+            },
+            {
+                "fromMuniCode": "07107",
+                "toMuniCode": "07122",
+                "distance": 24.17928633420501
+            },
+            {
+                "fromMuniCode": "07107",
+                "toMuniCode": "07069",
+                "distance": 28.29582494786685
+            }
+        ]
+    },
+    "07120": {
+        "name": "Capit\u00e1n Luis \u00c1ngel Vidal",
+        "state": "Chiapas",
+        "code": "07120",
+        "lat": 15.549191569472274,
+        "lon": -92.61467099487855,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07051",
+                "distance": 19.4314956110113
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07001",
+                "distance": 10.3453961665174
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07117",
+                "distance": 9.08861741296327
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07125",
+                "distance": 10.038042573513517
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07003",
+                "distance": 24.39866518188849
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07032",
+                "distance": 13.311449042370302
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07008",
+                "distance": 15.101725516901066
+            },
+            {
+                "fromMuniCode": "07120",
+                "toMuniCode": "07080",
+                "distance": 17.17910394981971
+            }
+        ]
+    },
+    "07010": {
+        "name": "Bejucal de Ocampo",
+        "state": "Chiapas",
+        "code": "07010",
+        "lat": 15.491757229149739,
+        "lon": -92.16129510361885,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07053",
+                "distance": 8.383184385124355
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07036",
+                "distance": 4.076633272098086
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07006",
+                "distance": 6.201884642318231
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07070",
+                "distance": 7.9671335893734545
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07011",
+                "distance": 10.354166278301987
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07080",
+                "distance": 13.347014455306413
+            },
+            {
+                "fromMuniCode": "07010",
+                "toMuniCode": "07057",
+                "distance": 16.725674555700273
+            }
+        ]
+    },
+    "07109": {
+        "name": "Yajal\u00f3n",
+        "state": "Chiapas",
+        "code": "07109",
+        "lat": 17.185559877812835,
+        "lon": -92.32584829776744,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07100",
+                "distance": 8.785659538311199
+            },
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07082",
+                "distance": 10.355206645769497
+            },
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07066",
+                "distance": 12.589605119936415
+            },
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07031",
+                "distance": 19.90817167529595
+            },
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07096",
+                "distance": 17.044033281871496
+            },
+            {
+                "fromMuniCode": "07109",
+                "toMuniCode": "07077",
+                "distance": 19.64584546752139
+            }
+        ]
+    },
+    "07007": {
+        "name": "Amatenango del Valle",
+        "state": "Chiapas",
+        "code": "07007",
+        "lat": 16.515291458794277,
+        "lon": -92.39542360477935,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07024",
+                "distance": 13.563452822855288
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07094",
+                "distance": 8.15198704499631
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07075",
+                "distance": 10.563000132511432
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07038",
+                "distance": 12.372519015039805
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07058",
+                "distance": 15.188512463412621
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07019",
+                "distance": 20.82618972392491
+            },
+            {
+                "fromMuniCode": "07007",
+                "toMuniCode": "07106",
+                "distance": 19.63614821591008
+            }
+        ]
+    },
+    "07031": {
+        "name": "Chil\u00f3n",
+        "state": "Chiapas",
+        "code": "07031",
+        "lat": 17.109295422950996,
+        "lon": -92.0351312355001,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07031",
+                "toMuniCode": "07109",
+                "distance": 19.90817167529595
+            },
+            {
+                "fromMuniCode": "07031",
+                "toMuniCode": "07100",
+                "distance": 20.366092625350426
+            },
+            {
+                "fromMuniCode": "07031",
+                "toMuniCode": "07082",
+                "distance": 21.278512988057734
+            },
+            {
+                "fromMuniCode": "07031",
+                "toMuniCode": "07065",
+                "distance": 27.400929378143314
+            }
+        ]
+    },
+    "07043": {
+        "name": "Ixtacomit\u00e1n",
+        "state": "Chiapas",
+        "code": "07043",
+        "lat": 17.421397366977722,
+        "lon": -93.09902654762112,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07043",
+                "toMuniCode": "07068",
+                "distance": 10.02425169349867
+            },
+            {
+                "fromMuniCode": "07043",
+                "toMuniCode": "07084",
+                "distance": 6.653315549741729
+            },
+            {
+                "fromMuniCode": "07043",
+                "toMuniCode": "07025",
+                "distance": 6.880301002860083
+            },
+            {
+                "fromMuniCode": "07043",
+                "toMuniCode": "07045",
+                "distance": 8.723449625235556
+            },
+            {
+                "fromMuniCode": "07043",
+                "toMuniCode": "07088",
+                "distance": 11.085518067672009
+            }
+        ]
+    },
+    "07048": {
+        "name": "Ju\u00e1rez",
+        "state": "Chiapas",
+        "code": "07048",
+        "lat": 17.699444993293962,
+        "lon": -93.19333172620654,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07048",
+                "toMuniCode": "07068",
+                "distance": 11.676270452720669
+            },
+            {
+                "fromMuniCode": "07048",
+                "toMuniCode": "07074",
+                "distance": 11.631806135867414
+            },
+            {
+                "fromMuniCode": "07048",
+                "toMuniCode": "07088",
+                "distance": 15.050871845198422
+            }
+        ]
+    },
+    "07052": {
+        "name": "Las Margaritas",
+        "state": "Chiapas",
+        "code": "07052",
+        "lat": 16.385602510199185,
+        "lon": -91.74028299253737,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07052",
+                "toMuniCode": "07115",
+                "distance": 35.06705512228097
+            },
+            {
+                "fromMuniCode": "07052",
+                "toMuniCode": "07041",
+                "distance": 13.032737058422857
+            },
+            {
+                "fromMuniCode": "07052",
+                "toMuniCode": "07004",
+                "distance": 20.741180670842954
+            },
+            {
+                "fromMuniCode": "07052",
+                "toMuniCode": "07099",
+                "distance": 27.100762524161535
+            },
+            {
+                "fromMuniCode": "07052",
+                "toMuniCode": "07059",
+                "distance": 34.50197068174552
+            }
+        ]
+    },
+    "07078": {
+        "name": "San Crist\u00f3bal de las Casas",
+        "state": "Chiapas",
+        "code": "07078",
+        "lat": 16.678295279057746,
+        "lon": -92.589947138588,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07110",
+                "distance": 9.664401889858967
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07094",
+                "distance": 9.719049251148954
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07023",
+                "distance": 11.431838558546715
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07098",
+                "distance": 12.190681062541298
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07028",
+                "distance": 12.447026001717553
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07093",
+                "distance": 13.247222814045573
+            },
+            {
+                "fromMuniCode": "07078",
+                "toMuniCode": "07038",
+                "distance": 12.646679246878742
+            }
+        ]
+    },
+    "07079": {
+        "name": "San Fernando",
+        "state": "Chiapas",
+        "code": "07079",
+        "lat": 16.91313386364265,
+        "lon": -93.20968162357394,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07029",
+                "distance": 8.624193429338419
+            },
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07012",
+                "distance": 7.916382143124276
+            },
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07063",
+                "distance": 8.414331081205242
+            },
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07021",
+                "distance": 12.83276734825715
+            },
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07061",
+                "distance": 19.545288052647184
+            },
+            {
+                "fromMuniCode": "07079",
+                "toMuniCode": "07101",
+                "distance": 12.923285261462077
+            }
+        ]
+    },
+    "07108": {
+        "name": "Villaflores",
+        "state": "Chiapas",
+        "code": "07108",
+        "lat": 16.346195670851976,
+        "lon": -93.37550567748258,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07108",
+                "toMuniCode": "07046",
+                "distance": 23.136202160221664
+            },
+            {
+                "fromMuniCode": "07108",
+                "toMuniCode": "07107",
+                "distance": 20.931044156641903
+            },
+            {
+                "fromMuniCode": "07108",
+                "toMuniCode": "07086",
+                "distance": 22.909905225631324
+            },
+            {
+                "fromMuniCode": "07108",
+                "toMuniCode": "07122",
+                "distance": 25.801632246477315
+            }
+        ]
+    },
+    "07062": {
+        "name": "Ostuac\u00e1n",
+        "state": "Chiapas",
+        "code": "07062",
+        "lat": 17.432416322720474,
+        "lon": -93.39957200910919,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07062",
+                "toMuniCode": "07088",
+                "distance": 10.506620958820072
+            },
+            {
+                "fromMuniCode": "07062",
+                "toMuniCode": "07033",
+                "distance": 12.555262286036855
+            },
+            {
+                "fromMuniCode": "07062",
+                "toMuniCode": "07068",
+                "distance": 14.85143934035585
+            },
+            {
+                "fromMuniCode": "07062",
+                "toMuniCode": "07092",
+                "distance": 17.93280459791799
+            },
+            {
+                "fromMuniCode": "07062",
+                "toMuniCode": "07124",
+                "distance": 21.4966414786911
+            }
+        ]
+    },
+    "07082": {
+        "name": "Sital\u00e1",
+        "state": "Chiapas",
+        "code": "07082",
+        "lat": 17.037262087626235,
+        "lon": -92.3482894198279,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07112",
+                "distance": 7.937643035727512
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07109",
+                "distance": 10.355206645769497
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07031",
+                "distance": 21.278512988057734
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07066",
+                "distance": 7.810765182207815
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07026",
+                "distance": 15.867929098098282
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07093",
+                "distance": 16.303509799866976
+            },
+            {
+                "fromMuniCode": "07082",
+                "toMuniCode": "07100",
+                "distance": 18.938284033998436
+            }
+        ]
+    },
+    "07096": {
+        "name": "Tila",
+        "state": "Chiapas",
+        "code": "07096",
+        "lat": 17.379187181495695,
+        "lon": -92.4858261889949,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07096",
+                "toMuniCode": "07076",
+                "distance": 9.205719856960558
+            },
+            {
+                "fromMuniCode": "07096",
+                "toMuniCode": "07100",
+                "distance": 15.256529488769683
+            },
+            {
+                "fromMuniCode": "07096",
+                "toMuniCode": "07039",
+                "distance": 16.6937692468185
+            },
+            {
+                "fromMuniCode": "07096",
+                "toMuniCode": "07109",
+                "distance": 17.044033281871496
+            },
+            {
+                "fromMuniCode": "07096",
+                "toMuniCode": "07077",
+                "distance": 20.13431579996149
+            }
+        ]
+    },
+    "07118": {
+        "name": "San Andr\u00e9s Duraznal",
+        "state": "Chiapas",
+        "code": "07118",
+        "lat": 17.154012957446845,
+        "lon": -92.80309371267647,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07072",
+                "distance": 5.879033918141693
+            },
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07047",
+                "distance": 6.479920880332364
+            },
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07014",
+                "distance": 9.383920757322903
+            },
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07081",
+                "distance": 11.805421796352071
+            },
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07039",
+                "distance": 9.431849269596611
+            },
+            {
+                "fromMuniCode": "07118",
+                "toMuniCode": "07121",
+                "distance": 9.653670107125777
+            }
+        ]
+    },
+    "07058": {
+        "name": "Nicol\u00e1s Ru\u00edz",
+        "state": "Chiapas",
+        "code": "07058",
+        "lat": 16.438196791462985,
+        "lon": -92.6100509437394,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07058",
+                "toMuniCode": "07007",
+                "distance": 15.188512463412621
+            },
+            {
+                "fromMuniCode": "07058",
+                "toMuniCode": "07098",
+                "distance": 6.263120525607254
+            },
+            {
+                "fromMuniCode": "07058",
+                "toMuniCode": "07106",
+                "distance": 8.355365297446559
+            },
+            {
+                "fromMuniCode": "07058",
+                "toMuniCode": "07094",
+                "distance": 10.823108687113834
+            },
+            {
+                "fromMuniCode": "07058",
+                "toMuniCode": "07028",
+                "distance": 11.090224326431855
+            }
+        ]
+    },
+    "07086": {
+        "name": "Suchiapa",
+        "state": "Chiapas",
+        "code": "07086",
+        "lat": 16.585549612325227,
+        "lon": -93.13633362548747,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07086",
+                "toMuniCode": "07108",
+                "distance": 22.909905225631324
+            },
+            {
+                "fromMuniCode": "07086",
+                "toMuniCode": "07101",
+                "distance": 10.635702784512716
+            },
+            {
+                "fromMuniCode": "07086",
+                "toMuniCode": "07027",
+                "distance": 10.71491325676665
+            },
+            {
+                "fromMuniCode": "07086",
+                "toMuniCode": "07123",
+                "distance": 17.83873069227117
+            },
+            {
+                "fromMuniCode": "07086",
+                "toMuniCode": "07122",
+                "distance": 19.81350349152163
+            }
+        ]
+    },
+    "07012": {
+        "name": "Berrioz\u00e1bal",
+        "state": "Chiapas",
+        "code": "07012",
+        "lat": 16.86660940952743,
+        "lon": -93.31907776146663,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07012",
+                "toMuniCode": "07079",
+                "distance": 7.916382143124276
+            },
+            {
+                "fromMuniCode": "07012",
+                "toMuniCode": "07061",
+                "distance": 11.704181822367532
+            },
+            {
+                "fromMuniCode": "07012",
+                "toMuniCode": "07101",
+                "distance": 14.89550197887717
+            },
+            {
+                "fromMuniCode": "07012",
+                "toMuniCode": "07063",
+                "distance": 15.683707887216114
+            }
+        ]
+    },
+    "07037": {
+        "name": "Huehuet\u00e1n",
+        "state": "Chiapas",
+        "code": "07037",
+        "lat": 15.009406129012826,
+        "lon": -92.42377528661214,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07037",
+                "toMuniCode": "07103",
+                "distance": 9.092482576623821
+            },
+            {
+                "fromMuniCode": "07037",
+                "toMuniCode": "07089",
+                "distance": 9.507354612884502
+            },
+            {
+                "fromMuniCode": "07037",
+                "toMuniCode": "07054",
+                "distance": 10.180459805879572
+            },
+            {
+                "fromMuniCode": "07037",
+                "toMuniCode": "07040",
+                "distance": 10.202967278642049
+            },
+            {
+                "fromMuniCode": "07037",
+                "toMuniCode": "07102",
+                "distance": 17.01117096750788
+            }
+        ]
+    },
+    "07044": {
+        "name": "Ixtapa",
+        "state": "Chiapas",
+        "code": "07044",
+        "lat": 16.817952333020138,
+        "lon": -92.89699770946152,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07111",
+                "distance": 10.097883432164545
+            },
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07049",
+                "distance": 10.836018071560643
+            },
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07085",
+                "distance": 9.616502887468048
+            },
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07063",
+                "distance": 13.460545265635567
+            },
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07013",
+                "distance": 14.159327454144204
+            },
+            {
+                "fromMuniCode": "07044",
+                "toMuniCode": "07027",
+                "distance": 15.51282174204401
+            }
+        ]
+    },
+    "07059": {
+        "name": "Ocosingo",
+        "state": "Chiapas",
+        "code": "07059",
+        "lat": 16.702093526984935,
+        "lon": -91.33749851243482,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07059",
+                "toMuniCode": "07052",
+                "distance": 34.50197068174552
+            },
+            {
+                "fromMuniCode": "07059",
+                "toMuniCode": "07004",
+                "distance": 34.87055753266019
+            },
+            {
+                "fromMuniCode": "07059",
+                "toMuniCode": "07116",
+                "distance": 50.41783524095584
+            }
+        ]
+    },
+    "07075": {
+        "name": "Las Rosas",
+        "state": "Chiapas",
+        "code": "07075",
+        "lat": 16.365306372603374,
+        "lon": -92.36472650308623,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07083",
+                "distance": 17.906116131982277
+            },
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07007",
+                "distance": 10.563000132511432
+            },
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07019",
+                "distance": 13.195540218309876
+            },
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07106",
+                "distance": 16.463498861997273
+            },
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07094",
+                "distance": 16.56141123569583
+            },
+            {
+                "fromMuniCode": "07075",
+                "toMuniCode": "07104",
+                "distance": 18.425402525765083
+            }
+        ]
+    },
+    "07040": {
+        "name": "Huixtla",
+        "state": "Chiapas",
+        "code": "07040",
+        "lat": 15.096982432126564,
+        "lon": -92.54685720976816,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07103",
+                "distance": 9.5129580227578
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07071",
+                "distance": 6.774763569664362
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07003",
+                "distance": 17.774466121002874
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07037",
+                "distance": 10.202967278642049
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07054",
+                "distance": 15.30810667082884
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07032",
+                "distance": 18.498354596566355
+            },
+            {
+                "fromMuniCode": "07040",
+                "toMuniCode": "07089",
+                "distance": 19.703504661361812
+            }
+        ]
+    },
+    "07072": {
+        "name": "Pueblo Nuevo Solistahuac\u00e1n",
+        "state": "Chiapas",
+        "code": "07072",
+        "lat": 17.218028557684043,
+        "lon": -92.86173830597012,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07118",
+                "distance": 5.879033918141693
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07121",
+                "distance": 4.7195333609328145
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07047",
+                "distance": 8.920073594712346
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07073",
+                "distance": 9.19941963664331
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07039",
+                "distance": 11.147013883193013
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07005",
+                "distance": 11.58385621503858
+            },
+            {
+                "fromMuniCode": "07072",
+                "toMuniCode": "07042",
+                "distance": 9.511171951628695
+            }
+        ]
+    },
+    "07008": {
+        "name": "\u00c1ngel Albino Corzo",
+        "state": "Chiapas",
+        "code": "07008",
+        "lat": 15.758279821537906,
+        "lon": -92.68063547481195,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07008",
+                "toMuniCode": "07117",
+                "distance": 6.08175340459367
+            },
+            {
+                "fromMuniCode": "07008",
+                "toMuniCode": "07120",
+                "distance": 15.101725516901066
+            },
+            {
+                "fromMuniCode": "07008",
+                "toMuniCode": "07020",
+                "distance": 15.243073784129464
+            },
+            {
+                "fromMuniCode": "07008",
+                "toMuniCode": "07030",
+                "distance": 19.45007613297015
+            },
+            {
+                "fromMuniCode": "07008",
+                "toMuniCode": "07125",
+                "distance": 19.474972907319792
+            }
+        ]
+    },
+    "07015": {
+        "name": "Cacahoat\u00e1n",
+        "state": "Chiapas",
+        "code": "07015",
+        "lat": 15.086238232563494,
+        "lon": -92.16413618767635,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07015",
+                "toMuniCode": "07105",
+                "distance": 4.49312377221144
+            },
+            {
+                "fromMuniCode": "07015",
+                "toMuniCode": "07102",
+                "distance": 13.47694872404909
+            },
+            {
+                "fromMuniCode": "07015",
+                "toMuniCode": "07089",
+                "distance": 14.121812999843405
+            }
+        ]
+    },
+    "07019": {
+        "name": "Comit\u00e1n de Dom\u00ednguez",
+        "state": "Chiapas",
+        "code": "07019",
+        "lat": 16.296883222772927,
+        "lon": -92.1789719491982,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07019",
+                "toMuniCode": "07083",
+                "distance": 18.55022103538841
+            },
+            {
+                "fromMuniCode": "07019",
+                "toMuniCode": "07075",
+                "distance": 13.195540218309876
+            },
+            {
+                "fromMuniCode": "07019",
+                "toMuniCode": "07104",
+                "distance": 12.75358050760117
+            },
+            {
+                "fromMuniCode": "07019",
+                "toMuniCode": "07007",
+                "distance": 20.82618972392491
+            },
+            {
+                "fromMuniCode": "07019",
+                "toMuniCode": "07024",
+                "distance": 21.890154950666226
+            }
+        ]
+    },
+    "07033": {
+        "name": "Francisco Le\u00f3n",
+        "state": "Chiapas",
+        "code": "07033",
+        "lat": 17.294075260235267,
+        "lon": -93.27618791906337,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07062",
+                "distance": 12.555262286036855
+            },
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07060",
+                "distance": 8.44037213731787
+            },
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07025",
+                "distance": 9.807993890913894
+            },
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07092",
+                "distance": 11.490945968042356
+            },
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07124",
+                "distance": 24.13868273882082
+            },
+            {
+                "fromMuniCode": "07033",
+                "toMuniCode": "07088",
+                "distance": 13.558330003150285
+            }
+        ]
+    },
+    "07070": {
+        "name": "El Porvenir",
+        "state": "Chiapas",
+        "code": "07070",
+        "lat": 15.432544579066352,
+        "lon": -92.2639263775784,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07053",
+                "distance": 6.647229130901044
+            },
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07036",
+                "distance": 6.332840010230234
+            },
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07010",
+                "distance": 7.9671335893734545
+            },
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07080",
+                "distance": 9.285692447140852
+            },
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07057",
+                "distance": 9.357753369784987
+            },
+            {
+                "fromMuniCode": "07070",
+                "toMuniCode": "07011",
+                "distance": 13.005145282770254
+            }
+        ]
+    },
+    "07105": {
+        "name": "Uni\u00f3n Ju\u00e1rez",
+        "state": "Chiapas",
+        "code": "07105",
+        "lat": 15.059953586423287,
+        "lon": -92.102551551135,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07105",
+                "toMuniCode": "07015",
+                "distance": 4.49312377221144
+            },
+            {
+                "fromMuniCode": "07105",
+                "toMuniCode": "07102",
+                "distance": 13.136005560795871
+            },
+            {
+                "fromMuniCode": "07105",
+                "toMuniCode": "07089",
+                "distance": 16.08059396395358
+            },
+            {
+                "fromMuniCode": "07105",
+                "toMuniCode": "07055",
+                "distance": 17.746229455355532
+            }
+        ]
+    },
+    "07122": {
+        "name": "El Parral",
+        "state": "Chiapas",
+        "code": "07122",
+        "lat": 16.337430554408158,
+        "lon": -92.98654269889515,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07123",
+                "distance": 13.11223121242609
+            },
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07107",
+                "distance": 24.17928633420501
+            },
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07108",
+                "distance": 25.801632246477315
+            },
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07027",
+                "distance": 18.617207544078834
+            },
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07002",
+                "distance": 18.678155482337697
+            },
+            {
+                "fromMuniCode": "07122",
+                "toMuniCode": "07086",
+                "distance": 19.81350349152163
+            }
+        ]
+    },
+    "07032": {
+        "name": "Escuintla",
+        "state": "Chiapas",
+        "code": "07032",
+        "lat": 15.364432581529313,
+        "lon": -92.55816884832677,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07001",
+                "distance": 8.918093675250939
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07003",
+                "distance": 17.080061355601604
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07120",
+                "distance": 13.311449042370302
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07040",
+                "distance": 18.498354596566355
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07071",
+                "distance": 14.349632552127838
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07125",
+                "distance": 15.349158191008062
+            },
+            {
+                "fromMuniCode": "07032",
+                "toMuniCode": "07057",
+                "distance": 15.50855087000389
+            }
+        ]
+    },
+    "07081": {
+        "name": "Simojovel",
+        "state": "Chiapas",
+        "code": "07081",
+        "lat": 17.138927173853475,
+        "lon": -92.6250211018521,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07076",
+                "distance": 12.536808817628705
+            },
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07022",
+                "distance": 8.177752695931146
+            },
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07039",
+                "distance": 8.55562190931436
+            },
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07014",
+                "distance": 10.670135241355094
+            },
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07118",
+                "distance": 11.805421796352071
+            },
+            {
+                "fromMuniCode": "07081",
+                "toMuniCode": "07066",
+                "distance": 11.945760086123954
+            }
+        ]
+    },
+    "07092": {
+        "name": "Tecpat\u00e1n",
+        "state": "Chiapas",
+        "code": "07092",
+        "lat": 17.17295678845135,
+        "lon": -93.39546236168229,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07092",
+                "toMuniCode": "07021",
+                "distance": 10.878066547758747
+            },
+            {
+                "fromMuniCode": "07092",
+                "toMuniCode": "07033",
+                "distance": 11.490945968042356
+            },
+            {
+                "fromMuniCode": "07092",
+                "toMuniCode": "07060",
+                "distance": 14.997693221262066
+            },
+            {
+                "fromMuniCode": "07092",
+                "toMuniCode": "07124",
+                "distance": 15.906920464422743
+            },
+            {
+                "fromMuniCode": "07092",
+                "toMuniCode": "07062",
+                "distance": 17.93280459791799
+            }
+        ]
+    },
+    "07124": {
+        "name": "Mezcalapa",
+        "state": "Chiapas",
+        "code": "07124",
+        "lat": 17.21479549725273,
+        "lon": -93.63239076712287,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07124",
+                "toMuniCode": "07092",
+                "distance": 15.906920464422743
+            },
+            {
+                "fromMuniCode": "07124",
+                "toMuniCode": "07062",
+                "distance": 21.4966414786911
+            },
+            {
+                "fromMuniCode": "07124",
+                "toMuniCode": "07033",
+                "distance": 24.13868273882082
+            }
+        ]
+    },
+    "07018": {
+        "name": "Coapilla",
+        "state": "Chiapas",
+        "code": "07018",
+        "lat": 17.120571189592418,
+        "lon": -93.12607681780389,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07029",
+                "distance": 8.708353384874497
+            },
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07021",
+                "distance": 8.57048315990067
+            },
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07067",
+                "distance": 6.584027609256633
+            },
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07090",
+                "distance": 6.939236044111127
+            },
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07060",
+                "distance": 7.611427780045357
+            },
+            {
+                "fromMuniCode": "07018",
+                "toMuniCode": "07063",
+                "distance": 15.820700673427215
+            }
+        ]
+    },
+    "07098": {
+        "name": "Totolapa",
+        "state": "Chiapas",
+        "code": "07098",
+        "lat": 16.515155067070978,
+        "lon": -92.65996327573903,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07110",
+                "distance": 8.53631726738648
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07094",
+                "distance": 10.504714438641725
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07078",
+                "distance": 12.190681062541298
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07058",
+                "distance": 6.263120525607254
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07028",
+                "distance": 5.128867927081043
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07002",
+                "distance": 10.553467818861339
+            },
+            {
+                "fromMuniCode": "07098",
+                "toMuniCode": "07106",
+                "distance": 14.10156339546517
+            }
+        ]
+    },
+    "07116": {
+        "name": "Marqu\u00e9s de Comillas",
+        "state": "Chiapas",
+        "code": "07116",
+        "lat": 16.24635200288112,
+        "lon": -90.74342091283575,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07116",
+                "toMuniCode": "07115",
+                "distance": 33.67955105400657
+            },
+            {
+                "fromMuniCode": "07116",
+                "toMuniCode": "07114",
+                "distance": 12.250063820443877
+            },
+            {
+                "fromMuniCode": "07116",
+                "toMuniCode": "07059",
+                "distance": 50.41783524095584
+            }
+        ]
+    },
+    "07026": {
+        "name": "Chenalh\u00f3",
+        "state": "Chiapas",
+        "code": "07026",
+        "lat": 16.950155513815318,
+        "lon": -92.57043508619067,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07056",
+                "distance": 5.229412774656594
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07022",
+                "distance": 5.623977116425761
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07082",
+                "distance": 15.867929098098282
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07113",
+                "distance": 8.15459644759784
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07119",
+                "distance": 9.989681886634404
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07066",
+                "distance": 10.351389811084253
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07093",
+                "distance": 10.378353864861305
+            },
+            {
+                "fromMuniCode": "07026",
+                "toMuniCode": "07023",
+                "distance": 11.591253441700127
+            }
+        ]
+    },
+    "07028": {
+        "name": "Chiapilla",
+        "state": "Chiapas",
+        "code": "07028",
+        "lat": 16.553972409657625,
+        "lon": -92.72594605375474,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07002",
+                "distance": 5.878713359425733
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07110",
+                "distance": 4.735894772274097
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07123",
+                "distance": 11.059658387277441
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07078",
+                "distance": 12.447026001717553
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07098",
+                "distance": 5.128867927081043
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07058",
+                "distance": 11.090224326431855
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07111",
+                "distance": 12.18490936916275
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07094",
+                "distance": 14.391633551615453
+            },
+            {
+                "fromMuniCode": "07028",
+                "toMuniCode": "07106",
+                "distance": 18.130711585624418
+            }
+        ]
+    },
+    "07091": {
+        "name": "Tapilula",
+        "state": "Chiapas",
+        "code": "07091",
+        "lat": 17.253975319538856,
+        "lon": -93.00344375883373,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07067",
+                "distance": 5.7009686835130005
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07042",
+                "distance": 3.487579195820281
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07073",
+                "distance": 4.339088513111788
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07121",
+                "distance": 5.268992698429869
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07060",
+                "distance": 11.48059297344456
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07084",
+                "distance": 9.193148721763432
+            },
+            {
+                "fromMuniCode": "07091",
+                "toMuniCode": "07090",
+                "distance": 7.557502482108745
+            }
+        ]
+    },
+    "07099": {
+        "name": "La Trinitaria",
+        "state": "Chiapas",
+        "code": "07099",
+        "lat": 16.024443722092542,
+        "lon": -91.89939981162183,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07099",
+                "toMuniCode": "07041",
+                "distance": 14.230166490969985
+            },
+            {
+                "fromMuniCode": "07099",
+                "toMuniCode": "07052",
+                "distance": 27.100762524161535
+            },
+            {
+                "fromMuniCode": "07099",
+                "toMuniCode": "07034",
+                "distance": 22.00161217250075
+            },
+            {
+                "fromMuniCode": "07099",
+                "toMuniCode": "07104",
+                "distance": 24.05248057377861
+            }
+        ]
+    },
+    "07106": {
+        "name": "Venustiano Carranza",
+        "state": "Chiapas",
+        "code": "07106",
+        "lat": 16.317311671368383,
+        "lon": -92.60789332305416,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07058",
+                "distance": 8.355365297446559
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07075",
+                "distance": 16.463498861997273
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07098",
+                "distance": 14.10156339546517
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07094",
+                "distance": 18.082442208286356
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07028",
+                "distance": 18.130711585624418
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07007",
+                "distance": 19.63614821591008
+            },
+            {
+                "fromMuniCode": "07106",
+                "toMuniCode": "07020",
+                "distance": 26.9124800071351
+            }
+        ]
+    },
+    "07004": {
+        "name": "Altamirano",
+        "state": "Chiapas",
+        "code": "07004",
+        "lat": 16.661883075713124,
+        "lon": -91.86257274630134,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07004",
+                "toMuniCode": "07052",
+                "distance": 20.741180670842954
+            },
+            {
+                "fromMuniCode": "07004",
+                "toMuniCode": "07059",
+                "distance": 34.87055753266019
+            },
+            {
+                "fromMuniCode": "07004",
+                "toMuniCode": "07024",
+                "distance": 23.723105347600868
+            },
+            {
+                "fromMuniCode": "07004",
+                "toMuniCode": "07064",
+                "distance": 28.497403773876933
+            }
+        ]
+    },
+    "07020": {
+        "name": "La Concordia",
+        "state": "Chiapas",
+        "code": "07020",
+        "lat": 15.960897359101693,
+        "lon": -92.7712432077869,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07020",
+                "toMuniCode": "07008",
+                "distance": 15.243073784129464
+            },
+            {
+                "fromMuniCode": "07020",
+                "toMuniCode": "07117",
+                "distance": 21.21267166202176
+            },
+            {
+                "fromMuniCode": "07020",
+                "toMuniCode": "07106",
+                "distance": 26.9124800071351
+            }
+        ]
+    },
+    "07045": {
+        "name": "Ixtapangajoya",
+        "state": "Chiapas",
+        "code": "07045",
+        "lat": 17.466870304854698,
+        "lon": -92.97559601242739,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07045",
+                "toMuniCode": "07043",
+                "distance": 8.723449625235556
+            },
+            {
+                "fromMuniCode": "07045",
+                "toMuniCode": "07084",
+                "distance": 5.846162019677333
+            },
+            {
+                "fromMuniCode": "07045",
+                "toMuniCode": "07005",
+                "distance": 9.609709924308786
+            },
+            {
+                "fromMuniCode": "07045",
+                "toMuniCode": "07042",
+                "distance": 11.635284315558438
+            }
+        ]
+    },
+    "07061": {
+        "name": "Ocozocoautla de Espinosa",
+        "state": "Chiapas",
+        "code": "07061",
+        "lat": 16.826298005428253,
+        "lon": -93.49094662013626,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07046",
+                "distance": 24.163890362931355
+            },
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07012",
+                "distance": 11.704181822367532
+            },
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07079",
+                "distance": 19.545288052647184
+            },
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07101",
+                "distance": 24.15735218265221
+            },
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07021",
+                "distance": 24.2981540131753
+            },
+            {
+                "fromMuniCode": "07061",
+                "toMuniCode": "07017",
+                "distance": 26.116362234176645
+            }
+        ]
+    },
+    "07066": {
+        "name": "Pantelh\u00f3",
+        "state": "Chiapas",
+        "code": "07066",
+        "lat": 17.06010645151933,
+        "lon": -92.46406682777773,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07112",
+                "distance": 10.175536494790363
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07109",
+                "distance": 12.589605119936415
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07082",
+                "distance": 7.810765182207815
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07026",
+                "distance": 10.351389811084253
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07022",
+                "distance": 10.123706565992805
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07081",
+                "distance": 11.945760086123954
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07056",
+                "distance": 14.381221881916137
+            },
+            {
+                "fromMuniCode": "07066",
+                "toMuniCode": "07100",
+                "distance": 21.011421409473186
+            }
+        ]
+    },
+    "07073": {
+        "name": "Ray\u00f3n",
+        "state": "Chiapas",
+        "code": "07073",
+        "lat": 17.191383126997803,
+        "lon": -92.99826990271104,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07067",
+                "distance": 3.873768053560064
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07072",
+                "distance": 9.19941963664331
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07091",
+                "distance": 4.339088513111788
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07121",
+                "distance": 4.662613041722913
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07042",
+                "distance": 7.517454555267724
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07090",
+                "distance": 7.786442876341295
+            },
+            {
+                "fromMuniCode": "07073",
+                "toMuniCode": "07047",
+                "distance": 10.797091940521259
+            }
+        ]
+    },
+    "07009": {
+        "name": "Arriaga",
+        "state": "Chiapas",
+        "code": "07009",
+        "lat": 16.248868836909367,
+        "lon": -93.93737178061777,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07009",
+                "toMuniCode": "07097",
+                "distance": 23.909326866316892
+            },
+            {
+                "fromMuniCode": "07009",
+                "toMuniCode": "07046",
+                "distance": 25.837817432137477
+            },
+            {
+                "fromMuniCode": "07009",
+                "toMuniCode": "07017",
+                "distance": 32.40545518503822
+            }
+        ]
+    },
+    "07039": {
+        "name": "Huitiup\u00e1n",
+        "state": "Chiapas",
+        "code": "07039",
+        "lat": 17.243171440828984,
+        "lon": -92.69492520726301,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07076",
+                "distance": 7.6751689995095775
+            },
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07096",
+                "distance": 16.6937692468185
+            },
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07081",
+                "distance": 8.55562190931436
+            },
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07118",
+                "distance": 9.431849269596611
+            },
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07072",
+                "distance": 11.147013883193013
+            },
+            {
+                "fromMuniCode": "07039",
+                "toMuniCode": "07005",
+                "distance": 14.549957491282413
+            }
+        ]
+    },
+    "07080": {
+        "name": "Siltepec",
+        "state": "Chiapas",
+        "code": "07080",
+        "lat": 15.532373953301478,
+        "lon": -92.35724597045007,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07125",
+                "distance": 7.583581865495815
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07120",
+                "distance": 17.17910394981971
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07010",
+                "distance": 13.347014455306413
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07070",
+                "distance": 9.285692447140852
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07036",
+                "distance": 9.341496679605811
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07011",
+                "distance": 9.734346344669296
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07057",
+                "distance": 15.200885903315264
+            },
+            {
+                "fromMuniCode": "07080",
+                "toMuniCode": "07030",
+                "distance": 18.570468562548925
+            }
+        ]
+    },
+    "07101": {
+        "name": "Tuxtla Guti\u00e9rrez",
+        "state": "Chiapas",
+        "code": "07101",
+        "lat": 16.7394464320993,
+        "lon": -93.137285151535,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07086",
+                "distance": 10.635702784512716
+            },
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07012",
+                "distance": 14.89550197887717
+            },
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07061",
+                "distance": 24.15735218265221
+            },
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07063",
+                "distance": 11.332931040047583
+            },
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07079",
+                "distance": 12.923285261462077
+            },
+            {
+                "fromMuniCode": "07101",
+                "toMuniCode": "07027",
+                "distance": 14.077575378449367
+            }
+        ]
+    },
+    "07119": {
+        "name": "Santiago el Pinar",
+        "state": "Chiapas",
+        "code": "07119",
+        "lat": 16.94936446036703,
+        "lon": -92.72154873017924,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07113",
+                "distance": 2.8149300362425964
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07014",
+                "distance": 5.841102450703464
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07049",
+                "distance": 4.032646733482319
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07026",
+                "distance": 9.989681886634404
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07022",
+                "distance": 8.792493989632662
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07023",
+                "distance": 9.39170461698966
+            },
+            {
+                "fromMuniCode": "07119",
+                "toMuniCode": "07056",
+                "distance": 11.675384474330967
+            }
+        ]
+    },
+    "07030": {
+        "name": "Chicomuselo",
+        "state": "Chiapas",
+        "code": "07030",
+        "lat": 15.799086797302218,
+        "lon": -92.39126140152432,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07030",
+                "toMuniCode": "07008",
+                "distance": 19.45007613297015
+            },
+            {
+                "fromMuniCode": "07030",
+                "toMuniCode": "07011",
+                "distance": 15.872444776669116
+            },
+            {
+                "fromMuniCode": "07030",
+                "toMuniCode": "07125",
+                "distance": 16.733704326250916
+            },
+            {
+                "fromMuniCode": "07030",
+                "toMuniCode": "07080",
+                "distance": 18.570468562548925
+            },
+            {
+                "fromMuniCode": "07030",
+                "toMuniCode": "07104",
+                "distance": 24.434361159879263
+            }
+        ]
+    },
+    "07035": {
+        "name": "Frontera Hidalgo",
+        "state": "Chiapas",
+        "code": "07035",
+        "lat": 14.750011245081263,
+        "lon": -92.21320039342743,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07035",
+                "toMuniCode": "07055",
+                "distance": 5.012077170230767
+            },
+            {
+                "fromMuniCode": "07035",
+                "toMuniCode": "07087",
+                "distance": 7.702932405500832
+            },
+            {
+                "fromMuniCode": "07035",
+                "toMuniCode": "07102",
+                "distance": 10.00494159217555
+            },
+            {
+                "fromMuniCode": "07035",
+                "toMuniCode": "07089",
+                "distance": 14.093319082354608
+            }
+        ]
+    },
+    "07093": {
+        "name": "Tenejapa",
+        "state": "Chiapas",
+        "code": "07093",
+        "lat": 16.83318376922754,
+        "lon": -92.47200594189233,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07056",
+                "distance": 6.676005901485432
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07112",
+                "distance": 8.552032859392922
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07064",
+                "distance": 13.536643235065519
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07082",
+                "distance": 16.303509799866976
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07026",
+                "distance": 10.378353864861305
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07038",
+                "distance": 10.727784565286399
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07078",
+                "distance": 13.247222814045573
+            },
+            {
+                "fromMuniCode": "07093",
+                "toMuniCode": "07023",
+                "distance": 13.80282429805573
+            }
+        ]
+    },
+    "07121": {
+        "name": "Rinc\u00f3n Chamula San Pedro",
+        "state": "Chiapas",
+        "code": "07121",
+        "lat": 17.217694815393862,
+        "lon": -92.93323351504289,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07072",
+                "distance": 4.7195333609328145
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07091",
+                "distance": 5.268992698429869
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07073",
+                "distance": 4.662613041722913
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07042",
+                "distance": 6.339089897537187
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07067",
+                "distance": 8.398390777832775
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07118",
+                "distance": 9.653670107125777
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07047",
+                "distance": 9.675263697868344
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07084",
+                "distance": 12.616821102547606
+            },
+            {
+                "fromMuniCode": "07121",
+                "toMuniCode": "07090",
+                "distance": 11.822703404917686
+            }
+        ]
+    },
+    "07005": {
+        "name": "Amat\u00e1n",
+        "state": "Chiapas",
+        "code": "07005",
+        "lat": 17.385595333843607,
+        "lon": -92.85734024580043,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07005",
+                "toMuniCode": "07045",
+                "distance": 9.609709924308786
+            },
+            {
+                "fromMuniCode": "07005",
+                "toMuniCode": "07039",
+                "distance": 14.549957491282413
+            },
+            {
+                "fromMuniCode": "07005",
+                "toMuniCode": "07084",
+                "distance": 9.72522295525157
+            },
+            {
+                "fromMuniCode": "07005",
+                "toMuniCode": "07042",
+                "distance": 10.010843030656776
+            },
+            {
+                "fromMuniCode": "07005",
+                "toMuniCode": "07072",
+                "distance": 11.58385621503858
+            }
+        ]
+    },
+    "07038": {
+        "name": "Huixt\u00e1n",
+        "state": "Chiapas",
+        "code": "07038",
+        "lat": 16.694277384378108,
+        "lon": -92.39963399395887,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07024",
+                "distance": 13.377811850711552
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07064",
+                "distance": 10.207159578427017
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07007",
+                "distance": 12.372519015039805
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07093",
+                "distance": 10.727784565286399
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07094",
+                "distance": 11.7037300124079
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07078",
+                "distance": 12.646679246878742
+            },
+            {
+                "fromMuniCode": "07038",
+                "toMuniCode": "07112",
+                "distance": 16.30982599389975
+            }
+        ]
+    },
+    "07054": {
+        "name": "Mazat\u00e1n",
+        "state": "Chiapas",
+        "code": "07054",
+        "lat": 14.88060670251144,
+        "lon": -92.49777361071263,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07037",
+                "distance": 10.180459805879572
+            },
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07040",
+                "distance": 15.30810667082884
+            },
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07089",
+                "distance": 13.393416648374558
+            },
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07103",
+                "distance": 18.85650813147605
+            },
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07102",
+                "distance": 19.997886624791196
+            },
+            {
+                "fromMuniCode": "07054",
+                "toMuniCode": "07087",
+                "distance": 24.596464409694313
+            }
+        ]
+    },
+    "07100": {
+        "name": "Tumbal\u00e1",
+        "state": "Chiapas",
+        "code": "07100",
+        "lat": 17.30079258732388,
+        "lon": -92.26962530985658,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07109",
+                "distance": 8.785659538311199
+            },
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07031",
+                "distance": 20.366092625350426
+            },
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07096",
+                "distance": 15.256529488769683
+            },
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07077",
+                "distance": 10.88053148591216
+            },
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07082",
+                "distance": 18.938284033998436
+            },
+            {
+                "fromMuniCode": "07100",
+                "toMuniCode": "07066",
+                "distance": 21.011421409473186
+            }
+        ]
+    },
+    "07104": {
+        "name": "Tzimol",
+        "state": "Chiapas",
+        "code": "07104",
+        "lat": 16.124083874347146,
+        "lon": -92.24644163390425,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07104",
+                "toMuniCode": "07083",
+                "distance": 8.684164997467525
+            },
+            {
+                "fromMuniCode": "07104",
+                "toMuniCode": "07019",
+                "distance": 12.75358050760117
+            },
+            {
+                "fromMuniCode": "07104",
+                "toMuniCode": "07099",
+                "distance": 24.05248057377861
+            },
+            {
+                "fromMuniCode": "07104",
+                "toMuniCode": "07075",
+                "distance": 18.425402525765083
+            },
+            {
+                "fromMuniCode": "07104",
+                "toMuniCode": "07030",
+                "distance": 24.434361159879263
+            }
+        ]
+    },
+    "07025": {
+        "name": "Chapultenango",
+        "state": "Chiapas",
+        "code": "07025",
+        "lat": 17.32679720017584,
+        "lon": -93.13153743037331,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07043",
+                "distance": 6.880301002860083
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07033",
+                "distance": 9.807993890913894
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07090",
+                "distance": 7.480670934873935
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07060",
+                "distance": 7.840378655260469
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07084",
+                "distance": 9.337975824251119
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07042",
+                "distance": 10.275900893739717
+            },
+            {
+                "fromMuniCode": "07025",
+                "toMuniCode": "07088",
+                "distance": 13.71489672273231
+            }
+        ]
+    },
+    "07047": {
+        "name": "Jitotol",
+        "state": "Chiapas",
+        "code": "07047",
+        "lat": 17.089514272120823,
+        "lon": -92.87430710128353,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07013",
+                "distance": 7.635523519048347
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07118",
+                "distance": 6.479920880332364
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07072",
+                "distance": 8.920073594712346
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07014",
+                "distance": 9.652190629817841
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07121",
+                "distance": 9.675263697868344
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07073",
+                "distance": 10.797091940521259
+            },
+            {
+                "fromMuniCode": "07047",
+                "toMuniCode": "07085",
+                "distance": 13.596203975195632
+            }
+        ]
+    },
+    "07060": {
+        "name": "Ocotepec",
+        "state": "Chiapas",
+        "code": "07060",
+        "lat": 17.22079446475919,
+        "lon": -93.17387646947229,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07021",
+                "distance": 10.186777238381937
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07033",
+                "distance": 8.44037213731787
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07092",
+                "distance": 14.997693221262066
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07018",
+                "distance": 7.611427780045357
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07025",
+                "distance": 7.840378655260469
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07090",
+                "distance": 4.063732243110932
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07067",
+                "distance": 8.025389789352776
+            },
+            {
+                "fromMuniCode": "07060",
+                "toMuniCode": "07091",
+                "distance": 11.48059297344456
+            }
+        ]
+    },
+    "07074": {
+        "name": "Reforma",
+        "state": "Chiapas",
+        "code": "07074",
+        "lat": 17.86422040334024,
+        "lon": -93.22938188200162,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07074",
+                "toMuniCode": "07048",
+                "distance": 11.631806135867414
+            },
+            {
+                "fromMuniCode": "07074",
+                "toMuniCode": "07068",
+                "distance": 23.143099110551915
+            }
+        ]
+    },
+    "07085": {
+        "name": "Soyal\u00f3",
+        "state": "Chiapas",
+        "code": "07085",
+        "lat": 16.9259699842872,
+        "lon": -92.98866674173999,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07085",
+                "toMuniCode": "07013",
+                "distance": 6.404263333614186
+            },
+            {
+                "fromMuniCode": "07085",
+                "toMuniCode": "07044",
+                "distance": 9.616502887468048
+            },
+            {
+                "fromMuniCode": "07085",
+                "toMuniCode": "07063",
+                "distance": 6.639558042563671
+            },
+            {
+                "fromMuniCode": "07085",
+                "toMuniCode": "07029",
+                "distance": 9.429910722869513
+            },
+            {
+                "fromMuniCode": "07085",
+                "toMuniCode": "07047",
+                "distance": 13.596203975195632
+            }
+        ]
+    },
+    "07027": {
+        "name": "Chiapa de Corzo",
+        "state": "Chiapas",
+        "code": "07027",
+        "lat": 16.606635193188758,
+        "lon": -92.97605135659873,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07123",
+                "distance": 9.678994513946398
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07086",
+                "distance": 10.71491325676665
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07122",
+                "distance": 18.617207544078834
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07101",
+                "distance": 14.077575378449367
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07002",
+                "distance": 11.346425924113928
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07111",
+                "distance": 15.117943795324907
+            },
+            {
+                "fromMuniCode": "07027",
+                "toMuniCode": "07044",
+                "distance": 15.51282174204401
+            }
+        ]
+    },
+    "07017": {
+        "name": "Cintalapa de Figueroa",
+        "state": "Chiapas",
+        "code": "07017",
+        "lat": 16.712962952911717,
+        "lon": -93.86747020462631,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07017",
+                "toMuniCode": "07046",
+                "distance": 18.445947467119613
+            },
+            {
+                "fromMuniCode": "07017",
+                "toMuniCode": "07061",
+                "distance": 26.116362234176645
+            },
+            {
+                "fromMuniCode": "07017",
+                "toMuniCode": "07009",
+                "distance": 32.40545518503822
+            }
+        ]
+    },
+    "07055": {
+        "name": "Metapa",
+        "state": "Chiapas",
+        "code": "07055",
+        "lat": 14.821664359509937,
+        "lon": -92.20160329698558,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07055",
+                "toMuniCode": "07105",
+                "distance": 17.746229455355532
+            },
+            {
+                "fromMuniCode": "07055",
+                "toMuniCode": "07035",
+                "distance": 5.012077170230767
+            },
+            {
+                "fromMuniCode": "07055",
+                "toMuniCode": "07102",
+                "distance": 5.0097872992789165
+            },
+            {
+                "fromMuniCode": "07055",
+                "toMuniCode": "07089",
+                "distance": 10.36876669362071
+            },
+            {
+                "fromMuniCode": "07055",
+                "toMuniCode": "07087",
+                "distance": 12.71328106543361
+            }
+        ]
+    },
+    "07057": {
+        "name": "Motozintla",
+        "state": "Chiapas",
+        "code": "07057",
+        "lat": 15.313824503193358,
+        "lon": -92.33146379762209,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07103",
+                "distance": 13.118437968342393
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07070",
+                "distance": 9.357753369784987
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07032",
+                "distance": 15.50855087000389
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07080",
+                "distance": 15.200885903315264
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07053",
+                "distance": 10.529944685397409
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07036",
+                "distance": 15.690579185187929
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07010",
+                "distance": 16.725674555700273
+            },
+            {
+                "fromMuniCode": "07057",
+                "toMuniCode": "07011",
+                "distance": 21.947133166255536
+            }
+        ]
+    },
+    "07077": {
+        "name": "Salto de Agua",
+        "state": "Chiapas",
+        "code": "07077",
+        "lat": 17.436799502606537,
+        "lon": -92.18652560653095,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07077",
+                "toMuniCode": "07050",
+                "distance": 31.004550679778017
+            },
+            {
+                "fromMuniCode": "07077",
+                "toMuniCode": "07100",
+                "distance": 10.88053148591216
+            },
+            {
+                "fromMuniCode": "07077",
+                "toMuniCode": "07109",
+                "distance": 19.64584546752139
+            },
+            {
+                "fromMuniCode": "07077",
+                "toMuniCode": "07096",
+                "distance": 20.13431579996149
+            },
+            {
+                "fromMuniCode": "07077",
+                "toMuniCode": "07065",
+                "distance": 24.65476236265385
+            }
+        ]
+    },
+    "07084": {
+        "name": "Solosuchiapa",
+        "state": "Chiapas",
+        "code": "07084",
+        "lat": 17.386994704722074,
+        "lon": -93.00479502981744,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07043",
+                "distance": 6.653315549741729
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07045",
+                "distance": 5.846162019677333
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07005",
+                "distance": 9.72522295525157
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07025",
+                "distance": 9.337975824251119
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07042",
+                "distance": 6.352530430359942
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07091",
+                "distance": 9.193148721763432
+            },
+            {
+                "fromMuniCode": "07084",
+                "toMuniCode": "07121",
+                "distance": 12.616821102547606
+            }
+        ]
+    },
+    "07090": {
+        "name": "Tapalapa",
+        "state": "Chiapas",
+        "code": "07090",
+        "lat": 17.220118349305782,
+        "lon": -93.11231832282954,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07067",
+                "distance": 4.237395077551719
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07018",
+                "distance": 6.939236044111127
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07073",
+                "distance": 7.786442876341295
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07025",
+                "distance": 7.480670934873935
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07060",
+                "distance": 4.063732243110932
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07091",
+                "distance": 7.557502482108745
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07042",
+                "distance": 10.354318944734159
+            },
+            {
+                "fromMuniCode": "07090",
+                "toMuniCode": "07121",
+                "distance": 11.822703404917686
+            }
+        ]
+    },
+    "07042": {
+        "name": "Ixhuat\u00e1n",
+        "state": "Chiapas",
+        "code": "07042",
+        "lat": 17.29853162170617,
+        "lon": -92.97862798103215,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07091",
+                "distance": 3.487579195820281
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07045",
+                "distance": 11.635284315558438
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07073",
+                "distance": 7.517454555267724
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07121",
+                "distance": 6.339089897537187
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07005",
+                "distance": 10.010843030656776
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07084",
+                "distance": 6.352530430359942
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07090",
+                "distance": 10.354318944734159
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07067",
+                "distance": 9.153978072142309
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07072",
+                "distance": 9.511171951628695
+            },
+            {
+                "fromMuniCode": "07042",
+                "toMuniCode": "07025",
+                "distance": 10.275900893739717
+            }
+        ]
+    },
+    "07069": {
+        "name": "Pijijiapan",
+        "state": "Chiapas",
+        "code": "07069",
+        "lat": 15.669520539305969,
+        "lon": -93.1924581385446,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07069",
+                "toMuniCode": "07051",
+                "distance": 24.671283282948867
+            },
+            {
+                "fromMuniCode": "07069",
+                "toMuniCode": "07107",
+                "distance": 28.29582494786685
+            }
+        ]
+    },
+    "07087": {
+        "name": "Suchiate",
+        "state": "Chiapas",
+        "code": "07087",
+        "lat": 14.639369957364751,
+        "lon": -92.22715887090682,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07087",
+                "toMuniCode": "07035",
+                "distance": 7.702932405500832
+            },
+            {
+                "fromMuniCode": "07087",
+                "toMuniCode": "07055",
+                "distance": 12.71328106543361
+            },
+            {
+                "fromMuniCode": "07087",
+                "toMuniCode": "07102",
+                "distance": 17.706582075282103
+            },
+            {
+                "fromMuniCode": "07087",
+                "toMuniCode": "07089",
+                "distance": 20.991697361102386
+            },
+            {
+                "fromMuniCode": "07087",
+                "toMuniCode": "07054",
+                "distance": 24.596464409694313
+            }
+        ]
+    },
+    "07088": {
+        "name": "Sunuapa",
+        "state": "Chiapas",
+        "code": "07088",
+        "lat": 17.488855655169456,
+        "lon": -93.25158587765992,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07068",
+                "distance": 4.501138360922583
+            },
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07048",
+                "distance": 15.050871845198422
+            },
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07062",
+                "distance": 10.506620958820072
+            },
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07043",
+                "distance": 11.085518067672009
+            },
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07033",
+                "distance": 13.558330003150285
+            },
+            {
+                "fromMuniCode": "07088",
+                "toMuniCode": "07025",
+                "distance": 13.71489672273231
+            }
+        ]
+    },
+    "07089": {
+        "name": "Tapachula",
+        "state": "Chiapas",
+        "code": "07089",
+        "lat": 14.933677780194303,
+        "lon": -92.30488595343272,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07037",
+                "distance": 9.507354612884502
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07040",
+                "distance": 19.703504661361812
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07015",
+                "distance": 14.121812999843405
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07105",
+                "distance": 16.08059396395358
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07054",
+                "distance": 13.393416648374558
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07055",
+                "distance": 10.36876669362071
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07087",
+                "distance": 20.991697361102386
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07102",
+                "distance": 7.60169088414361
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07035",
+                "distance": 14.093319082354608
+            },
+            {
+                "fromMuniCode": "07089",
+                "toMuniCode": "07103",
+                "distance": 15.964846153856152
+            }
+        ]
+    },
+    "07102": {
+        "name": "Tuxtla Chico",
+        "state": "Chiapas",
+        "code": "07102",
+        "lat": 14.894101223351727,
+        "lon": -92.19867748197278,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07015",
+                "distance": 13.47694872404909
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07105",
+                "distance": 13.136005560795871
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07035",
+                "distance": 10.00494159217555
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07054",
+                "distance": 19.997886624791196
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07055",
+                "distance": 5.0097872992789165
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07087",
+                "distance": 17.706582075282103
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07089",
+                "distance": 7.60169088414361
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07037",
+                "distance": 17.01117096750788
+            },
+            {
+                "fromMuniCode": "07102",
+                "toMuniCode": "07103",
+                "distance": 22.175289254749046
+            }
+        ]
+    },
+    "07011": {
+        "name": "Bella Vista",
+        "state": "Chiapas",
+        "code": "07011",
+        "lat": 15.619585589540176,
+        "lon": -92.24241801677906,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07036",
+                "distance": 7.53759058051164
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07125",
+                "distance": 15.252364403122488
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07006",
+                "distance": 10.597014902193115
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07034",
+                "distance": 14.269719589527902
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07010",
+                "distance": 10.354166278301987
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07070",
+                "distance": 13.005145282770254
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07080",
+                "distance": 9.734346344669296
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07030",
+                "distance": 15.872444776669116
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07053",
+                "distance": 17.469450115852215
+            },
+            {
+                "fromMuniCode": "07011",
+                "toMuniCode": "07057",
+                "distance": 21.947133166255536
+            }
+        ]
+    },
+    "07023": {
+        "name": "Chamula",
+        "state": "Chiapas",
+        "code": "07023",
+        "lat": 16.819362539009422,
+        "lon": -92.68016723588559,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07111",
+                "distance": 9.52570813888093
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07113",
+                "distance": 7.111977561536069
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07056",
+                "distance": 8.6399553252534
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07049",
+                "distance": 9.664829603971961
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07078",
+                "distance": 11.431838558546715
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07119",
+                "distance": 9.39170461698966
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07026",
+                "distance": 11.591253441700127
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07093",
+                "distance": 13.80282429805573
+            },
+            {
+                "fromMuniCode": "07023",
+                "toMuniCode": "07110",
+                "distance": 13.909659268094453
+            }
+        ]
+    },
+    "07063": {
+        "name": "Osumacinta",
+        "state": "Chiapas",
+        "code": "07063",
+        "lat": 16.89524078519071,
+        "lon": -93.0838088133476,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07029",
+                "distance": 7.15552014658069
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07079",
+                "distance": 8.414331081205242
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07012",
+                "distance": 15.683707887216114
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07044",
+                "distance": 13.460545265635567
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07101",
+                "distance": 11.332931040047583
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07085",
+                "distance": 6.639558042563671
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07013",
+                "distance": 11.65323457785597
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07018",
+                "distance": 15.820700673427215
+            },
+            {
+                "fromMuniCode": "07063",
+                "toMuniCode": "07021",
+                "distance": 17.71544037015733
+            }
+        ]
+    },
+    "07065": {
+        "name": "Palenque",
+        "state": "Chiapas",
+        "code": "07065",
+        "lat": 17.444075678054567,
+        "lon": -91.81265611869286,
+        "hasSupercharger": false,
+        "edges": [
+            {
+                "fromMuniCode": "07065",
+                "toMuniCode": "07050",
+                "distance": 11.944981080893545
+            },
+            {
+                "fromMuniCode": "07065",
+                "toMuniCode": "07077",
+                "distance": 24.65476236265385
+            },
+            {
+                "fromMuniCode": "07065",
+                "toMuniCode": "07016",
+                "distance": 26.209411973784952
+            },
+            {
+                "fromMuniCode": "07065",
+                "toMuniCode": "07031",
+                "distance": 27.400929378143314
+            }
+        ]
+    }
+}
