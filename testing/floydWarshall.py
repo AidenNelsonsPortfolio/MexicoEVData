@@ -54,11 +54,16 @@ class FloydWarshall(Algorithm):
         while nextMuni.index != endMuni.index and not exceededRange:
             for neighbor in graph.getMunicipalityNeighbors(nextMuni.code):
                 neighborMuni: Municipality = graph[neighbor]
-                if (
-                    adjMatrix[nextMuni.index][neighborMuni.index]
-                    + adjMatrix[neighborMuni.index][endMuni.index]
-                    == adjMatrix[nextMuni.index][endMuni.index]
-                ):
+                
+                currentTown = adjMatrix[nextMuni.index][neighborMuni.index]
+                neighborTown = adjMatrix[neighborMuni.index][endMuni.index]
+                distToNeighbor = currentTown + neighborTown
+
+                endTown = adjMatrix[nextMuni.index][endMuni.index]
+                distToNeighbor = round(distToNeighbor, 11)
+                endTown = round(endTown, 11)
+                
+                if distToNeighbor == endTown:     
 
                     if not neighborMuni.hasSupercharger:
                         distWithoutCharge += adjMatrix[nextMuni.index][

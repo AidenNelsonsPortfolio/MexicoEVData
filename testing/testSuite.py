@@ -17,11 +17,13 @@ from floydWarshall import FloydWarshall
 
 # Defined Test Cases and other Constants
 TEST_CASES: list[TestCase] | None = [
-    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.FLOYD_WARSHALL),
-    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
-    TestCase("07076", "SomeRandomCode", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
-    TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.A_STAR),
-    TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.DIJKSTRA),
+    # TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.FLOYD_WARSHALL),
+    # TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
+    # TestCase("07076", "SomeRandomCode", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
+    # TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.A_STAR),
+    # TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.DIJKSTRA),
+    TestCase("07052", "07076", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+
 ]
 
 
@@ -31,9 +33,9 @@ def getGraph(graphType: GraphType) -> Graph:
     match graphType:
         case GraphType.ALL_NODES:
             with open(
-                path.join(parent_dir, "graphs/allMunicipalitiesGraph.json")
-            ) as file:
-                obj: dict[str, dict] = json.load(file)
+                path.join(parent_dir, "graphs/124onlyChiapasMunis.json") 
+            ) as file:                                                     
+                obj: dict[str, dict] = json.load(file)                      
                 return Graph(
                     {
                         code: Municipality(index, **value)
