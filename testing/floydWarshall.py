@@ -1,3 +1,4 @@
+import time 
 from typing import Optional
 from definitions import (
     Algorithm,
@@ -15,6 +16,9 @@ class FloydWarshall(Algorithm):
     def getShortestPath(
         startingCode: str, endingCode: str, graph: Graph
     ) -> Optional[Route]:
+        
+        # startTime = time.time()
+
         # Make adjacency matrix with all infinity values
         numMuni: int = len(graph)
         adjMatrix: list[list[float]] = [
@@ -62,7 +66,7 @@ class FloydWarshall(Algorithm):
                 endTown = adjMatrix[nextMuni.index][endMuni.index]
                 distToNeighbor = round(distToNeighbor, 11)
                 endTown = round(endTown, 11)
-                
+
                 if distToNeighbor == endTown:     
 
                     if not neighborMuni.hasSupercharger:
@@ -94,5 +98,10 @@ class FloydWarshall(Algorithm):
         if exceededRange:
             print("ERROR: Exceeded range")
             return None
+
+        # endTime = time.time()
+        # totalTime = (endTime - startTime)
+        # print("Total algorithm time: ")
+        # print(totalTime) 
 
         return route

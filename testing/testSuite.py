@@ -22,7 +22,15 @@ TEST_CASES: list[TestCase] | None = [
     # TestCase("07076", "SomeRandomCode", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
     # TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.A_STAR),
     # TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.DIJKSTRA),
-    TestCase("07052", "07076", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+
+    TestCase("16085", "04013", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+
+    TestCase("30202", "21124", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+    TestCase("16003", "15098", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+    TestCase("20221", "30018", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+
+    TestCase("20508", "12062", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),  
+    TestCase("15038", "07090", GraphType.ALL_NODES, SPAlgorithm.FLOYD_WARSHALL),
 
 ]
 
@@ -33,7 +41,7 @@ def getGraph(graphType: GraphType) -> Graph:
     match graphType:
         case GraphType.ALL_NODES:
             with open(
-                path.join(parent_dir, "graphs/124onlyChiapasMunis.json") 
+                path.join(parent_dir, "graphs/allMunicipalitiesGraph.json") 
             ) as file:                                                     
                 obj: dict[str, dict] = json.load(file)                      
                 return Graph(
