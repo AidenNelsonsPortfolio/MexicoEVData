@@ -4,8 +4,7 @@ import os
 import pprint
 from typing import List, Optional
 
-MAX_RANGE: int = 1000 * (10 ** 15)
-
+MAX_RANGE: int = 35
 
 # Municipality and MunicipalityEdge classes
 class MunicipalityEdge:
