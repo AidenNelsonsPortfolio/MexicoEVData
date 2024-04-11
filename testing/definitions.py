@@ -6,7 +6,6 @@ from typing import List, Optional
 
 MAX_RANGE: int = 35
 
-
 # Municipality and MunicipalityEdge classes
 class MunicipalityEdge:
     def __init__(
