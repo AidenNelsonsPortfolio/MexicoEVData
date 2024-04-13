@@ -1,12 +1,25 @@
 from dataclasses import dataclass
 from enum import Enum
 import os
-import pprint
+from pathlib import Path
+from os import path
 from typing import List, Optional
+
+PROJECT_ROOT = str(path.dirname(Path(__file__).parent))
 
 MAX_RANGE: int = 35
 
+RESULT_MATRICES = [
+    path.join(PROJECT_ROOT, 'resultMatrix.txt'),
+    path.join(PROJECT_ROOT, 'resultMatrix8.txt'),
+    path.join(PROJECT_ROOT, 'resultMatrix500.txt'),
+    path.join(PROJECT_ROOT, 'resultMatrix1000.txt'),
+]
+RESULT_MATRIX_ZIP = path.join(PROJECT_ROOT, 'resultMatrices.zip')
+
 # Municipality and MunicipalityEdge classes
+
+
 class MunicipalityEdge:
     def __init__(
         self, fromMuniCode: str, toMuniCode: str, distance: float | int | None = None
@@ -176,7 +189,8 @@ class Route:
         self.stops.append(stop)
 
     def print_shortest_path_str(self):
-        self._print_green(f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
+        self._print_green(
+            f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
         return self
 
     def print(self):

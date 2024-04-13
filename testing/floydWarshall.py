@@ -1,4 +1,4 @@
-import time 
+import time
 from typing import Optional
 from definitions import (
     Algorithm,
@@ -16,7 +16,7 @@ class FloydWarshall(Algorithm):
     def getShortestPath(
         startingCode: str, endingCode: str, graph: Graph
     ) -> Optional[Route]:
-        
+
         startTime = time.time()
         # # Make adjacency matrix with all infinity values
         # numMuni: int = len(graph)
@@ -47,29 +47,31 @@ class FloydWarshall(Algorithm):
         #         file.write(' '.join(map(str, row)) + '\n')
 
         adjMatrix = []
-        filename = 'resultMatrix.txt'
+        filename = f'resultMatrix{len(graph)}.txt'
         with open(filename, 'r') as file:
             for line in file:
                 row = line.strip().split()
                 row = [float(elem) for elem in row]
                 adjMatrix.append(row)
-        
-        #Find a route
+
+        # Find a route
         startMuni: Municipality = graph[startingCode]
         endMuni: Municipality = graph[endingCode]
         exceededRange: bool = False
         distWithoutCharge: float | int = 0
 
         if adjMatrix[startMuni.index][endMuni.index] == float("inf"):
-            print("No route between ", startMuni.code, " and ", endMuni.code, " exists")
+            print("No route between ", startMuni.code,
+                  " and ", endMuni.code, " exists")
 
-        route: Route = Route([RouteStop(startMuni.code, 0)], SPAlgorithm.FLOYD_WARSHALL)
+        route: Route = Route([RouteStop(startMuni.code, 0)],
+                             SPAlgorithm.FLOYD_WARSHALL)
 
         nextMuni = startMuni
         while nextMuni.index != endMuni.index and not exceededRange:
             for neighbor in graph.getMunicipalityNeighbors(nextMuni.code):
                 neighborMuni: Municipality = graph[neighbor]
-                
+
                 currentTown = adjMatrix[nextMuni.index][neighborMuni.index]
                 neighborTown = adjMatrix[neighborMuni.index][endMuni.index]
                 distToNeighbor = currentTown + neighborTown
@@ -78,7 +80,7 @@ class FloydWarshall(Algorithm):
                 distToNeighbor = round(distToNeighbor, 11)
                 endTown = round(endTown, 11)
 
-                if distToNeighbor == endTown:     
+                if distToNeighbor == endTown:
 
                     if not neighborMuni.hasSupercharger:
                         distWithoutCharge += adjMatrix[nextMuni.index][
@@ -113,6 +115,6 @@ class FloydWarshall(Algorithm):
         endTime = time.time()
         totalTime = (endTime - startTime)
         print("Total algorithm time: ")
-        print(totalTime) 
+        print(totalTime)
 
         return route
