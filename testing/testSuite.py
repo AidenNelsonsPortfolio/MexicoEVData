@@ -10,16 +10,19 @@ from os import path
 from pathlib import Path
 import pprint
 from typing import Optional
-from definitions import Graph, GraphType, Route, SPAlgorithm, TestCase, Municipality
+from definitions import Graph, GraphType, Route, SPAlgorithm, TestCase, Municipality, RESULT_MATRICES, RESULT_MATRIX_ZIP, PROJECT_ROOT
+from zipfile import ZipFile
 from aStar import AStar
 from dijkstra import Dijkstra
 from floydWarshall import FloydWarshall
 
 # Defined Test Cases and other Constants
 TEST_CASES: list[TestCase] | None = [
-    TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.FLOYD_WARSHALL),
+    TestCase("07076", "12035", GraphType.EIGHT_NODES,
+             SPAlgorithm.FLOYD_WARSHALL),
     TestCase("07076", "12035", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
-    TestCase("07076", "SomeRandomCode", GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
+    TestCase("07076", "SomeRandomCode",
+             GraphType.EIGHT_NODES, SPAlgorithm.DIJKSTRA),
     TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.A_STAR),
     TestCase("07076", "12035", GraphType.ALL_NODES, SPAlgorithm.DIJKSTRA),
 ]
@@ -108,6 +111,10 @@ def getShortestPath(testCase: TestCase, graph: Graph) -> Route:
 
 # Main function to run different TestCase objects
 def main():
+    if not any(map(path.exists, RESULT_MATRICES)):
+        with ZipFile(RESULT_MATRIX_ZIP, 'r') as m:
+            m.extractall(PROJECT_ROOT)
+
     if not TEST_CASES:
         return
 
