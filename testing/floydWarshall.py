@@ -48,7 +48,6 @@ class FloydWarshall(Algorithm):
 
         adjMatrix = []
         filename = f'resultMatrix{len(graph)}.txt'
-        print(filename)
         with open(filename, 'r') as file:
             for line in file:
                 row = line.strip().split()

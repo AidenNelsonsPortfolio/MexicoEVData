@@ -111,7 +111,7 @@ def getShortestPath(testCase: TestCase, graph: Graph) -> Route:
 
 # Main function to run different TestCase objects
 def main():
-    if not any(map(path.exists, RESULT_MATRICES)):
+    if any(map(lambda x: not path.exists(x), RESULT_MATRICES)):
         with ZipFile(RESULT_MATRIX_ZIP, 'r') as m:
             m.extractall(PROJECT_ROOT)
 
