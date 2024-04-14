@@ -65,7 +65,7 @@
             {
                 "fromMuniCode": "07076",
                 "toMuniCode": "12022",
-                "distance": 1
+                "distance": 100
             }
         ]
     },
@@ -140,7 +140,7 @@
             {
                 "fromMuniCode": "12022",
                 "toMuniCode": "07076",
-                "distance": 1
+                "distance": 100
             },
             {
                 "fromMuniCode": "12022",
