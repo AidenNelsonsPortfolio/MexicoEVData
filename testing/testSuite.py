@@ -18,7 +18,6 @@ from definitions import (
     Municipality,
     TeslaModelRange,
     RESULT_MATRICES,
-    RESULT_MATRIX_ZIP,
     PROJECT_ROOT,
     TESTING_DIR,
     MATRIX_ARCHIVES
