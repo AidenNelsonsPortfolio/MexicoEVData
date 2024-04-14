@@ -26,9 +26,35 @@ class AStar(Algorithm):
             graph=graph,
         )
 
+    @staticmethod
+    def getAllShortestPaths(carRange: int, graph: Graph) -> list[list[float]]:
+        # Iterate over each and every pair of nodes, returning the distances between each of them
+        startTime: float = time.time_ns()
+        result: list[list[float]] = []
+        for muni in graph.allMunicipalities:
+            muniCode: str = muni.code
+            curMuniResult: list[float] = []
+            for otherMuni in graph.allMunicipalities:
+                otherMuniCode: str = otherMuni.code
+                if muniCode == otherMuniCode:
+                    curMuniResult.append(0.0)
+                else:
+                    route: Route | None = AStar()._getShortestPath(
+                        muniCode, otherMuniCode, carRange, graph
+                    )
+                    if not route:
+                        curMuniResult.append(-1.0)
+                    else:
+                        curMuniResult.append(route.totalDistance)
+            result.append(curMuniResult)
+        print(
+            f"Took {(time.time_ns() - startTime) / 10**9} to find all shortest paths."
+        )
+        return result
+
     def _getShortestPath(
         self, startingCode: str, endingCode: str, carRange: int, graph: Graph
-    ) -> Optional[Route]:
+    ) -> Optional[Route | float]:
         goal_municpilaity = graph.getMunicipality(endingCode)
         return self._A_Star(
             start=graph.getMunicipality(startingCode),
@@ -121,8 +147,8 @@ class AStar(Algorithm):
                 rem_charge = carRange
 
             if cur_muni == end:
-                print("Max charge at destination: ", max(rem_charge, max_charge[end]))
-                print("Total algorithm time: ", time.time() - start_time)
+                # print("Max charge at destination: ", max(rem_charge, max_charge[end]))
+                # print("Total algorithm time: ", time.time() - start_time)
                 return self._reconstruct_path(g_score, came_from, start, end)
 
             for edge in cur_muni.edges:
@@ -152,11 +178,11 @@ class AStar(Algorithm):
                         ),
                     )
 
-        print(
-            "No route between ",
-            start.code,
-            " and ",
-            end.code,
-            " exists with charge constraints.",
-        )
+        # print(
+        #     "No route between ",
+        #     start.code,
+        #     " and ",
+        #     end.code,
+        #     " exists with charge constraints.",
+        # )
         return None

@@ -20,7 +20,7 @@ from definitions import (
     RESULT_MATRICES,
     PROJECT_ROOT,
     TESTING_DIR,
-    MATRIX_ARCHIVES
+    MATRIX_ARCHIVES,
 )
 from zipfile import ZipFile
 from aStar import AStar
@@ -33,7 +33,7 @@ from createMap import createMap
 ALGORITHMS_TO_TEST: list[SPAlgorithm] = [
     SPAlgorithm.DIJKSTRA,
     SPAlgorithm.A_STAR,
-    SPAlgorithm.FLOYD_WARSHALL,
+    # SPAlgorithm.FLOYD_WARSHALL,
 ]
 
 CARS_TO_TEST: list[TeslaModelRange] = [
@@ -162,6 +162,22 @@ def getShortestPath(
             raise ValueError("Invalid algorithm type")
 
 
+# Function to get all shortest paths from a given test case
+def getAllShortestPaths(
+    algorithm: SPAlgorithm, carRange: TeslaModelRange, graph: Graph
+) -> list[list[float]]:
+    match algorithm:
+        case SPAlgorithm.DIJKSTRA:
+            return Dijkstra.getAllShortestPaths(carRange.value, graph)
+        case SPAlgorithm.A_STAR:
+            return AStar.getAllShortestPaths(carRange.value, graph)
+        case SPAlgorithm.FLOYD_WARSHALL:
+            return FloydWarshall.getAllShortestPaths(carRange.value, graph)
+        case _:
+            print("Bad algorithm type in test case, please retry.")
+            raise ValueError("Invalid algorithm type")
+
+
 # Main function to run different TestCase objects
 def main():
     if any(map(lambda x: not path.exists(x), RESULT_MATRICES)):
@@ -186,38 +202,56 @@ def main():
     for i, testCase in enumerate(TEST_CASES):
         for j, algorithm in enumerate(ALGORITHMS_TO_TEST):
             for carRange in CARS_TO_TEST:
-                print(
-                    f"\033[93mRunning test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {algorithm.value} on {testCase.graphType.value} with max range {carRange.value}...\033[00m"
-                )
-                # Print actual places for the test case
-                print(
-                    f"From: {graphs[testCase.graphType][testCase.startingMunicipalityCode].name}"
-                )
-                print(
-                    f"To: {graphs[testCase.graphType][testCase.endingMunicipalityCode].name}"
-                )
-                route: Optional[Route | float] = getShortestPath(
-                    testCase, algorithm, carRange, graphs[testCase.graphType]
-                )
-                if isinstance(route, Route) and route:
-                    # Print out and save a map of the route (only once per test case)
-                    route.print().print_shortest_path_str()
-                    """ 
-                    # Commented out to avoid creating maps for all test cases
-                    if j == 0:
-                        print("Creating map...")
-                        createMap(
-                            graphs[testCase.graphType],
-                            route,
-                            f"{testCase.startingMunicipalityCode}to{testCase.endingMunicipalityCode}",
-                        )
-                        print("Map created.")
-                    """
-                elif isinstance(route, float):
-                    # Print in green if a route was found
+                if (
+                    not testCase.startingMunicipalityCode
+                    and not testCase.endingMunicipalityCode
+                ):
+                    # Means we are finding all shortest paths
                     print(
-                        f"\033[92mShortest path(s): {route:.2f} total miles\033[00m\n"
+                        f"\033[93mRunning all shortest paths using {algorithm.value} on {testCase.graphType.value} with max range {carRange.value}...\033[00m"
                     )
+                    allShortestPaths: list[list[float]] = getAllShortestPaths(
+                        algorithm, carRange, graphs[testCase.graphType]
+                    )
+                    # Write to file
+                    with open(
+                        f"allShortestPaths_{algorithm.name}_{len(graphs[testCase.graphType])}.txt",
+                        "w",
+                    ) as file:
+                        for row in allShortestPaths:
+                            file.write(" ".join(map(str, row)) + "\n")
+                else:
+                    print(
+                        f"\033[93mRunning test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {algorithm.value} on {testCase.graphType.value} with max range {carRange.value}...\033[00m"
+                    )
+                    print(
+                        f"From: {graphs[testCase.graphType][testCase.startingMunicipalityCode].name}"
+                    )
+                    print(
+                        f"To: {graphs[testCase.graphType][testCase.endingMunicipalityCode].name}"
+                    )
+                    route: Optional[Route | float] = getShortestPath(
+                        testCase, algorithm, carRange, graphs[testCase.graphType]
+                    )
+                    if isinstance(route, Route) and route:
+                        # Print out and save a map of the route (only once per test case)
+                        route.print().print_shortest_path_str()
+                        """ 
+                        # Commented out to avoid creating maps for all test cases
+                        if j == 0:
+                            print("Creating map...")
+                            createMap(
+                                graphs[testCase.graphType],
+                                route,
+                                f"{testCase.startingMunicipalityCode}to{testCase.endingMunicipalityCode}",
+                            )
+                            print("Map created.")
+                        """
+                    elif isinstance(route, float):
+                        # Print in green if a route was found
+                        print(
+                            f"\033[92mShortest path(s): {route:.2f} total miles\033[00m\n"
+                        )
     print("All test cases have been run.")
 
 

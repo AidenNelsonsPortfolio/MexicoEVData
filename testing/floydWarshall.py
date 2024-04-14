@@ -108,3 +108,9 @@ class FloydWarshall(Algorithm):
         print("Total algorithm time: ", totalTime)
 
         return float(adjRow[endMuni.index])
+
+    @staticmethod
+    def getAllShortestPaths(carRange: int, graph: Graph) -> list[list[float]]:
+        raise NotImplementedError(
+            "Floyd Warshall algorithm does not support all shortest paths."
+        )

@@ -57,4 +57,10 @@ FIVE_HUNDRED_TEST_CASES: list[TestCase] = [
     # TestCase("21176", "21165", GraphType.FIVE_HUNDRED_NODES),
 ]
 
-TEST_CASES: list[TestCase] = FIVE_HUNDRED_TEST_CASES
+ALL_SHORTEST_PATH_TEST_CASES: list[TestCase] = [
+    TestCase(None, None, GraphType.FIVE_HUNDRED_NODES),
+    # TestCase(None, None, GraphType.ONE_THOUSAND_NODES),
+    # TestCase(None, None, GraphType.ALL_NODES),
+]
+
+TEST_CASES: list[TestCase] = ALL_SHORTEST_PATH_TEST_CASES

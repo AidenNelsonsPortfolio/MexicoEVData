@@ -4,3 +4,4 @@ __pycache__
 resultMatrix*.txt 
 resultChargeMatrix*.txt
 *.html
+allShortestPaths*.txt

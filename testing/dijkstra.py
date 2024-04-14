@@ -5,7 +5,7 @@
 
 import heapq
 from typing import Optional
-from definitions import Algorithm, Graph, Route, RouteStop, SPAlgorithm
+from definitions import Algorithm, Graph, Route, RouteStop, SPAlgorithm, Municipality
 import time
 
 
@@ -128,6 +128,97 @@ class Dijkstra(Algorithm):
             currentDistance += shortestRoute.stops[i].distance
 
         return shortestRoute
+
+    @staticmethod
+    def getAllShortestPaths(carRange: int, graph: Graph) -> list[list[float]]:
+        # Run Dijkstra's on each node in the graph, assembling a matrix of, for each node, the shortest distances for that node
+        startTime: float = time.time_ns()
+        result: list[list[float]] = []
+
+        for i in range(len(graph)):
+            # Get the current node to get all distances from
+            curMuni: Municipality = graph.getMunicipalityByIndex(i)
+            startingCode: str = curMuni.code
+
+            # Create empty dictionary to keep track of distances to other municipalities
+            distances = {}
+            # Empty dictionary to store if the municipality was charged at
+            charged = {}
+            # Dictionary to store max charge at each municipality
+            maxCharge = {}
+
+            # Set all distances to infinity
+            for node in graph.allMunicipalityCodes:
+                distances[node] = float("inf")
+                maxCharge[node] = -1
+
+            # Set starting municipality distance to zero and charge to full
+            distances[startingCode] = 0
+            maxCharge[startingCode] = carRange
+
+            # Add the starting municipality to the minimum priority queue
+            minPriorityQ: list[tuple[float, str, float]] = [(0, startingCode, carRange)]
+
+            # Keep looping until min priority queue is empty
+            while minPriorityQ:
+                # Pop off municipality that has the lowest current distance from the queue
+                currentDist, currentMuni, currentRange = heapq.heappop(minPriorityQ)
+
+                # If the current distance is not better than the distance already found
+                # and if the current available charge is <= the max charge at the municipality, continue
+                if (
+                    currentDist > distances[currentMuni]
+                    and currentMuni in maxCharge
+                    and maxCharge[currentMuni] > currentRange
+                ):
+                    continue
+
+                # Loop through the neighbor municipalities of the current municipality
+                for edge in graph.getMunicipalityEdges(currentMuni):
+                    neighborMuni, addedEdge = edge.toMuniCode, edge.distance
+
+                    # Subtract the distance to the neighbor and update the range
+                    updatedRange: float = currentRange - addedEdge
+
+                    # If the added edge does not cause the range to be exceeded, then add the edge
+                    if updatedRange < 0:
+                        continue
+
+                    # If the neighbor municipality has a Supercharger then reset the range back to full
+                    if graph.getMunicipalityHasSupercharger(neighborMuni):
+                        charged[neighborMuni] = True
+                        updatedRange = carRange
+                    else:
+                        charged[neighborMuni] = False
+                    distance = currentDist + addedEdge
+
+                    # If the distance with the added edge is shorter than the shortest distance we have so far, then update the distance to the new shortest distance
+                    if (
+                        distance < distances[neighborMuni]
+                        or updatedRange > maxCharge[neighborMuni]
+                    ):
+                        if updatedRange > maxCharge[neighborMuni]:
+                            maxCharge[neighborMuni] = updatedRange
+
+                        if distance < distances[neighborMuni]:
+                            distances[neighborMuni] = distance
+
+                        # Push the updated distance and range for the municipality onto the queue
+                        heapq.heappush(
+                            minPriorityQ, (distance, neighborMuni, updatedRange)
+                        )
+
+            curMuniResults: list[float] = []
+            for j in range(len(graph)):
+                # Get the node by the index
+                code = graph.getMunicipalityByIndex(j).code
+                curMuniResults.append(distances[code])
+            result.append(curMuniResults)
+
+        print(
+            f"Took {(time.time_ns()- startTime) / 10**9} seconds to find all shortest paths."
+        )
+        return result
 
 
 # # Function to print the shortest path from one municipality to another using the information gathered from running Dijkstra's Algorithm
