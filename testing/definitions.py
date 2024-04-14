@@ -6,7 +6,7 @@ from os import path
 from typing import List, Optional
 
 PROJECT_ROOT = str(path.dirname(Path(__file__).parent))
-TESTING_DIR = str(PROJECT_ROOT, 'testing')
+TESTING_DIR = str(path.join(PROJECT_ROOT, 'testing'))
 
 RESULT_MATRICES = [
     path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix8.txt'),
@@ -21,7 +21,8 @@ RESULT_MATRICES = [
     path.join(PROJECT_ROOT, 'testing', 'resultMatrix2475.txt'),
 ]
 
-MATRIX_ARCHIVES = [path.join(PROJECT_ROOT, 'archives', f"resultMatrices{x}.zip" for x in range(1, 6)])
+MATRIX_ARCHIVES = [path.join(
+    PROJECT_ROOT, 'archives', f'resultMatrices{x}.zip') for x in range(1, 6)]
 
 # Municipality and MunicipalityEdge classes
 
@@ -109,11 +110,11 @@ class Graph:
     def __getitem__(self, key: str) -> Municipality:
         return self.graphData[key]
 
-    @property
+    @ property
     def allMunicipalityCodes(self) -> set[str]:
         return set(self.graphData.keys())
 
-    @property
+    @ property
     def allMunicipalities(self) -> list[Municipality]:
         return list(self.graphData.values())
 
@@ -137,7 +138,7 @@ class Graph:
 
 
 # Dataclasses for Route and RouteStop (for printing shortest path)
-@dataclass
+@ dataclass
 class RouteStop:
     muniCode: str
     distance: float | int
@@ -163,14 +164,14 @@ class GraphType(str, Enum):
 
 
 # Dataclass for TestCase (to be used in testSuite.py)
-@dataclass
+@ dataclass
 class TestCase:
     startingMunicipalityCode: str
     endingMunicipalityCode: str
     graphType: GraphType
 
 
-@dataclass
+@ dataclass
 class Route:
     def __init__(self, stops: Optional[List[RouteStop]], algorithm: SPAlgorithm):
         self.stops: Optional[list[RouteStop]] = stops
@@ -191,7 +192,7 @@ class Route:
     def __len__(self):
         return len(self.stops)
 
-    @property
+    @ property
     def totalDistance(self):
         return sum([stop.distance for stop in self.stops]) if self.stops else 0
 
@@ -216,7 +217,7 @@ class Route:
 
 # Graph Algorithm parent class (standard interface)
 class Algorithm:
-    @staticmethod
+    @ staticmethod
     def getShortestPath(
         startingCode: str, endingCode: str, carRange: int, graph: Graph
     ) -> Optional[Route | float]:
