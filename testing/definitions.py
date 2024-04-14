@@ -7,15 +7,14 @@ from typing import List, Optional
 
 PROJECT_ROOT = str(path.dirname(Path(__file__).parent))
 
-MAX_RANGE: int = 35
-
 RESULT_MATRICES = [
-    path.join(PROJECT_ROOT, 'resultMatrix.txt'),
-    path.join(PROJECT_ROOT, 'resultMatrix8.txt'),
-    path.join(PROJECT_ROOT, 'resultMatrix500.txt'),
-    path.join(PROJECT_ROOT, 'resultMatrix1000.txt'),
+    path.join(PROJECT_ROOT, "resultMatrix.txt"),
+    path.join(PROJECT_ROOT, "resultMatrix8.txt"),
+    path.join(PROJECT_ROOT, "resultMatrix500.txt"),
+    path.join(PROJECT_ROOT, "resultMatrix1000.txt"),
 ]
-RESULT_MATRIX_ZIP = path.join(PROJECT_ROOT, 'resultMatrices.zip')
+
+RESULT_MATRIX_ZIP = path.join(PROJECT_ROOT, "resultMatrices.zip")
 
 # Municipality and MunicipalityEdge classes
 
@@ -94,6 +93,7 @@ class Municipality:
 class Graph:
     def __init__(self, graphData: dict[str, Municipality]):
         self.graphData = graphData
+        self.indexToMuni = {muni.index: muni for muni in self.allMunicipalities}
 
     def __len__(self):
         return len(self.graphData)
@@ -114,6 +114,9 @@ class Graph:
 
     def getMunicipality(self, muniCode: str) -> Municipality:
         return self.graphData[muniCode]
+
+    def getMunicipalityByIndex(self, index: int) -> Municipality:
+        return self.indexToMuni.get(index, None)
 
     def getMunicipalityEdges(self, muniCode: str) -> list[MunicipalityEdge]:
         return self.graphData[muniCode].edges
@@ -146,6 +149,9 @@ class SPAlgorithm(str, Enum):
 class GraphType(str, Enum):
     ALL_NODES = "All nodes in the graph"
     EIGHT_NODES = "Eight nodes in the graph"
+    FIVE_HUNDRED_NODES = "Five hundred nodes in the graph"
+    ONE_THOUSAND_NODES = "One thousand nodes in the graph"
+    ONE_HUNDRED_NODES = "One hundred nodes in the graph"
 
 
 # Dataclass for TestCase (to be used in testSuite.py)
@@ -154,7 +160,6 @@ class TestCase:
     startingMunicipalityCode: str
     endingMunicipalityCode: str
     graphType: GraphType
-    algorithm: SPAlgorithm
 
 
 @dataclass
@@ -189,8 +194,7 @@ class Route:
         self.stops.append(stop)
 
     def print_shortest_path_str(self):
-        self._print_green(
-            f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
+        self._print_green(f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
         return self
 
     def print(self):
@@ -205,6 +209,15 @@ class Route:
 class Algorithm:
     @staticmethod
     def getShortestPath(
-        startingCode: str, endingCode: str, graph: Graph
-    ) -> Optional[Route]:
+        startingCode: str, endingCode: str, carRange: int, graph: Graph
+    ) -> Optional[Route | float]:
         raise NotImplementedError("Subclasses must implement getShortestPath.")
+
+
+# Enum for each model Tesla car (to be used in testing)
+class TeslaModelRange(Enum):
+    MODEL_Y = 260
+    MODEL_3 = 272
+    MODEL_X = 335
+    CYBERTRUCK = 340
+    MODEL_S = 402

@@ -1,32 +1,44 @@
-from definitions import Algorithm, Graph, Municipality, Route, RouteStop, SPAlgorithm
+from definitions import (
+    Algorithm,
+    Graph,
+    Municipality,
+    Route,
+    RouteStop,
+    SPAlgorithm,
+)
 from cmath import sqrt
 from math import sqrt, inf
 from typing import Callable, Dict, List, Optional
 from collections import defaultdict
+import heapq
 
 
 class AStar(Algorithm):
     @staticmethod
     def getShortestPath(
-        startingCode: str, endingCode: str, graph: Graph
-    ) -> Optional[Route]:
+        startingCode: str, endingCode: str, carRange: int, graph: Graph
+    ) -> Optional[Route | float]:
         return AStar()._getShortestPath(
-            startingCode=startingCode, endingCode=endingCode, graph=graph
+            startingCode=startingCode,
+            endingCode=endingCode,
+            carRange=carRange,
+            graph=graph,
         )
 
     def _getShortestPath(
-        self, startingCode: str, endingCode: str, graph: Graph
+        self, startingCode: str, endingCode: str, carRange: int, graph: Graph
     ) -> Optional[Route]:
         goal_municpilaity = graph.getMunicipality(endingCode)
         return self._A_Star(
             start=graph.getMunicipality(startingCode),
             end=goal_municpilaity,
-            all_data=graph.allMunicipalities,
+            carRange=carRange,
+            graph=graph,
             h=self._get_heuristic(goal_municpilaity),
         )
 
-    def _inf_dict(self):
-        return defaultdict(lambda: inf)
+    def _inf_dict(self, negative=False):
+        return defaultdict(lambda: inf if not negative else -inf)
 
     def _euc_dist(self, point1: Municipality, point2: Municipality):
         return float(
@@ -44,80 +56,96 @@ class AStar(Algorithm):
         )
 
     def _reconstruct_path(
-        self, came_from: Dict[Municipality, Municipality], current: Municipality
+        self,
+        g_scores: Dict[Municipality, Municipality],
+        came_from: Dict[Municipality, Municipality],
+        start: Municipality,
+        end: Municipality,
     ) -> Route:
-        total_path = [current]
-
-        while current in came_from.keys():
-            current = came_from[current]
-            total_path.insert(0, current)
-
-        def calculate_distance(muni, prev_muni):
-            for edge in muni.edges:
-                if (
-                    edge.fromMuniCode == muni.code and edge.toMuniCode == prev_muni.code
-                ) or (
-                    edge.fromMuniCode == prev_muni.code and edge.toMuniCode == muni.code
-                ):
-                    return edge.distance
-            return 0
-
-        stops = list(
-            map(
-                lambda muni: RouteStop(
-                    muniCode=muni.code,
-                    charged=muni.hasSupercharger,
-                    distance=sum(
-                        calculate_distance(muni, prev_muni)
-                        for prev_muni in total_path[: total_path.index(muni)]
-                    ),
-                ),
-                total_path,
+        shortest_route: Route = Route(stops=[], algorithm=SPAlgorithm.A_STAR)
+        cur_muni = end
+        while cur_muni != start:
+            # Get the next muni and its g_score
+            next_muni = came_from[cur_muni]
+            prev_g_score = g_scores[next_muni]
+            shortest_route.addStop(
+                RouteStop(
+                    muniCode=cur_muni.code,
+                    charged=cur_muni.hasSupercharger,
+                    distance=g_scores[cur_muni] - prev_g_score,
+                )
             )
-        )
-        return Route(stops=stops, algorithm=SPAlgorithm.A_STAR)
+            cur_muni = next_muni
+        shortest_route.addStop(RouteStop(muniCode=start.code, distance=0))
+        shortest_route.reverse()
+
+        return shortest_route
 
     def _get_heuristic(
         self, goal_state: Municipality
     ) -> Callable[[Municipality], float]:
         return lambda x: self._euc_dist(x, goal_state)
 
-    def collection_to_single_by_muni(self, to_code: int, nodes: List[Municipality]):
-        return next(node for node in nodes if node.code == to_code)
-
     def _A_Star(
         self,
         start: Municipality,
         end: Municipality,
-        all_data: List[Municipality],
+        carRange: int,
+        graph: Graph,
         h: Callable[[Municipality], float],
     ):
-        open_set = {start}
+        # Frontier has format: (f_score, chargeRemaining, g_score, municipality)
+        frontier: list[tuple[float, float, float, Municipality]] = [
+            (h(start), -carRange, 0, start)
+        ]
+
         came_from: Dict[Municipality, Municipality] = {}
-
+        max_charge: Dict[Municipality, float] = self._inf_dict(negative=True)
         g_score: defaultdict[Municipality, float] = self._inf_dict()
-        g_score[start] = 0
-
         f_score: defaultdict[Municipality, float] = self._inf_dict()
+
+        max_charge[start] = carRange
+        g_score[start] = 0
         f_score[start] = h(start)
 
-        while open_set != {}:
-            current = min(open_set, key=lambda n: f_score[n])
-            if current == end:
-                return self._reconstruct_path(came_from, current)
-            open_set.remove(current)
-            for edge in current.edges:
-                neighbor = self.collection_to_single_by_muni(edge.toMuniCode, all_data)
+        # Iterate through frontier
+        while frontier:
+            # Get the current municipality (rem_charge is negative to make it a max heap)
+            cur_f_score, neg_rem_charge, cur_g_score, cur_muni = heapq.heappop(frontier)
+            rem_charge = -neg_rem_charge
 
-                tentative_g_score = g_score[current] + self._d(
-                    from_point=current, to_point=end, through_point=neighbor
-                )
-                if tentative_g_score < g_score[neighbor]:
+            if cur_muni.hasSupercharger:
+                rem_charge = carRange
 
-                    came_from[neighbor] = current
-                    g_score[neighbor] = tentative_g_score
-                    f_score[neighbor] = tentative_g_score + h(neighbor)
-                    if neighbor not in open_set:
-                        open_set.add(neighbor)
+            if cur_muni == end:
+                print("Max charge at destination: ", max(rem_charge, max_charge[end]))
+                return self._reconstruct_path(g_score, came_from, start, end)
+
+            for edge in cur_muni.edges:
+                neighbor = graph.getMunicipality(edge.toMuniCode)
+
+                tentative_g_score = cur_g_score + edge.distance
+                tentative_rem_charge = rem_charge - edge.distance
+
+                if (
+                    tentative_g_score < g_score[neighbor]
+                    or tentative_rem_charge > max_charge[neighbor]
+                ) and tentative_rem_charge >= 0:
+                    # Only update "came_from" if the neighbor is a shorter path
+                    if tentative_g_score < g_score[neighbor]:
+                        came_from[neighbor] = cur_muni
+                        g_score[neighbor] = tentative_g_score
+                        f_score[neighbor] = tentative_g_score + h(neighbor)
+                    if tentative_rem_charge > max_charge[neighbor]:
+                        max_charge[neighbor] = tentative_rem_charge
+                    heapq.heappush(
+                        frontier,
+                        (
+                            f_score[neighbor],
+                            -tentative_rem_charge,
+                            tentative_g_score,
+                            neighbor,
+                        ),
+                    )
 
         return None
