@@ -167,7 +167,7 @@ def main():
     if any(map(lambda x: not path.exists(x), RESULT_MATRICES)):
         print("Extracting result matrices...")
         for z in MATRIX_ARCHIVES:
-            with ZipFile(RESULT_MATRIX_ZIP, "r") as m:
+            with ZipFile(z, "r") as m:
                 m.extractall(TESTING_DIR)
         print("Done extracting result matrices.")
 
