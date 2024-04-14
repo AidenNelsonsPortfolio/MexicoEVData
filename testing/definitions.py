@@ -6,15 +6,22 @@ from os import path
 from typing import List, Optional
 
 PROJECT_ROOT = str(path.dirname(Path(__file__).parent))
+TESTING_DIR = str(PROJECT_ROOT, 'testing')
 
 RESULT_MATRICES = [
-    path.join(PROJECT_ROOT, "resultMatrix.txt"),
-    path.join(PROJECT_ROOT, "resultMatrix8.txt"),
-    path.join(PROJECT_ROOT, "resultMatrix500.txt"),
-    path.join(PROJECT_ROOT, "resultMatrix1000.txt"),
+    path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix8.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix100.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix500.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix1000.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultChargeMatrix2475.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultMatrix8.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultMatrix100.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultMatrix500.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultMatrix1000.txt'),
+    path.join(PROJECT_ROOT, 'testing', 'resultMatrix2475.txt'),
 ]
 
-RESULT_MATRIX_ZIP = path.join(PROJECT_ROOT, "resultMatrices.zip")
+MATRIX_ARCHIVES = [path.join(PROJECT_ROOT, 'archives', f"resultMatrices{x}.zip" for x in range(1, 6)])
 
 # Municipality and MunicipalityEdge classes
 
@@ -93,7 +100,8 @@ class Municipality:
 class Graph:
     def __init__(self, graphData: dict[str, Municipality]):
         self.graphData = graphData
-        self.indexToMuni = {muni.index: muni for muni in self.allMunicipalities}
+        self.indexToMuni = {
+            muni.index: muni for muni in self.allMunicipalities}
 
     def __len__(self):
         return len(self.graphData)
@@ -194,7 +202,8 @@ class Route:
         self.stops.append(stop)
 
     def print_shortest_path_str(self):
-        self._print_green(f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
+        self._print_green(
+            f"Shortest path(s): {self.totalDistance:.2f} total miles\n")
         return self
 
     def print(self):

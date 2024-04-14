@@ -20,6 +20,8 @@ from definitions import (
     RESULT_MATRICES,
     RESULT_MATRIX_ZIP,
     PROJECT_ROOT,
+    TESTING_DIR,
+    MATRIX_ARCHIVES
 )
 from zipfile import ZipFile
 from aStar import AStar
@@ -165,8 +167,9 @@ def getShortestPath(
 def main():
     if any(map(lambda x: not path.exists(x), RESULT_MATRICES)):
         print("Extracting result matrices...")
-        with ZipFile(RESULT_MATRIX_ZIP, "r") as m:
-            m.extractall(PROJECT_ROOT)
+        for z in MATRIX_ARCHIVES:
+            with ZipFile(RESULT_MATRIX_ZIP, "r") as m:
+                m.extractall(TESTING_DIR)
         print("Done extracting result matrices.")
 
     if not TEST_CASES:
