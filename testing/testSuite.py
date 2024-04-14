@@ -25,13 +25,10 @@ from zipfile import ZipFile
 from aStar import AStar
 from dijkstra import Dijkstra
 from floydWarshall import FloydWarshall
+from testCases import TEST_CASES
+from createMap import createMap
 
-# Defined Test Cases and other Constants
-TEST_CASES: list[TestCase] | None = [
-    TestCase("07076", "12022", GraphType.EIGHT_NODES),
-    TestCase("02002", "02006", GraphType.FIVE_HUNDRED_NODES),
-]
-
+# Defined constants
 ALGORITHMS_TO_TEST: list[SPAlgorithm] = [
     SPAlgorithm.DIJKSTRA,
     SPAlgorithm.A_STAR,
@@ -40,10 +37,10 @@ ALGORITHMS_TO_TEST: list[SPAlgorithm] = [
 
 CARS_TO_TEST: list[TeslaModelRange] = [
     TeslaModelRange.MODEL_Y,
-    TeslaModelRange.MODEL_3,
-    TeslaModelRange.MODEL_X,
-    TeslaModelRange.CYBERTRUCK,
-    TeslaModelRange.MODEL_S,
+    # TeslaModelRange.MODEL_3,
+    # TeslaModelRange.MODEL_X,
+    # TeslaModelRange.CYBERTRUCK,
+    # TeslaModelRange.MODEL_S,
 ]
 
 
@@ -185,16 +182,35 @@ def main():
     # Run all test cases on each algorithm and car range
     print("Beginning running test cases...\n")
     for i, testCase in enumerate(TEST_CASES):
-        for algorithm in ALGORITHMS_TO_TEST:
+        for j, algorithm in enumerate(ALGORITHMS_TO_TEST):
             for carRange in CARS_TO_TEST:
                 print(
                     f"\033[93mRunning test case {i+1} from {testCase.startingMunicipalityCode} to {testCase.endingMunicipalityCode} using {algorithm.value} on {testCase.graphType.value} with max range {carRange.value}...\033[00m"
+                )
+                # Print actual places for the test case
+                print(
+                    f"From: {graphs[testCase.graphType][testCase.startingMunicipalityCode].name}"
+                )
+                print(
+                    f"To: {graphs[testCase.graphType][testCase.endingMunicipalityCode].name}"
                 )
                 route: Optional[Route | float] = getShortestPath(
                     testCase, algorithm, carRange, graphs[testCase.graphType]
                 )
                 if isinstance(route, Route) and route:
+                    # Print out and save a map of the route (only once per test case)
                     route.print().print_shortest_path_str()
+                    """ 
+                    # Commented out to avoid creating maps for all test cases
+                    if j == 0:
+                        print("Creating map...")
+                        createMap(
+                            graphs[testCase.graphType],
+                            route,
+                            f"{testCase.startingMunicipalityCode}to{testCase.endingMunicipalityCode}",
+                        )
+                        print("Map created.")
+                    """
                 elif isinstance(route, float):
                     # Print in green if a route was found
                     print(

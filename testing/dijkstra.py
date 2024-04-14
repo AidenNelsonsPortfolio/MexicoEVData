@@ -6,6 +6,7 @@
 import heapq
 from typing import Optional
 from definitions import Algorithm, Graph, Route, RouteStop, SPAlgorithm
+import time
 
 
 class Dijkstra(Algorithm):
@@ -13,6 +14,8 @@ class Dijkstra(Algorithm):
     def getShortestPath(
         startingCode: str, endingCode: str, carRange: int, graph: Graph
     ) -> Optional[Route | float]:
+        startTime = time.time()
+
         # Create empty dictionary to keep track of distances to other municipalities
         distances = {}
         # Empty dictionary to store the previous municipality, so we can trace the the path back from the starting municipality
@@ -93,11 +96,11 @@ class Dijkstra(Algorithm):
         if not atLeastOnePath:
             # If the ending municipality is not found, then return None
             print(
-                "ERROR, no suitable route between ",
+                "No route between ",
                 startingCode,
                 " and ",
                 endingCode,
-                " exists.",
+                " exists with charge constraints.",
             )
             return None
 
@@ -114,6 +117,7 @@ class Dijkstra(Algorithm):
 
         # Now store max range at each municipality
         print("Max charge at destination: ", maxCharge[endingCode])
+        print("Total algorithm time: ", time.time() - startTime)
 
         currentDistance = 0
         # Update to have per-edge distances (specific to Dijkstra's)

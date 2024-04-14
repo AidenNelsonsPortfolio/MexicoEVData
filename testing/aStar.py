@@ -11,6 +11,7 @@ from math import sqrt, inf
 from typing import Callable, Dict, List, Optional
 from collections import defaultdict
 import heapq
+import time
 
 
 class AStar(Algorithm):
@@ -94,6 +95,8 @@ class AStar(Algorithm):
         graph: Graph,
         h: Callable[[Municipality], float],
     ):
+        start_time = time.time()
+
         # Frontier has format: (f_score, chargeRemaining, g_score, municipality)
         frontier: list[tuple[float, float, float, Municipality]] = [
             (h(start), -carRange, 0, start)
@@ -119,6 +122,7 @@ class AStar(Algorithm):
 
             if cur_muni == end:
                 print("Max charge at destination: ", max(rem_charge, max_charge[end]))
+                print("Total algorithm time: ", time.time() - start_time)
                 return self._reconstruct_path(g_score, came_from, start, end)
 
             for edge in cur_muni.edges:
@@ -148,4 +152,11 @@ class AStar(Algorithm):
                         ),
                     )
 
+        print(
+            "No route between ",
+            start.code,
+            " and ",
+            end.code,
+            " exists with charge constraints.",
+        )
         return None
