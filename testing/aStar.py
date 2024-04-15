@@ -43,7 +43,7 @@ class AStar(Algorithm):
                         muniCode, otherMuniCode, carRange, graph
                     )
                     if not route:
-                        curMuniResult.append(-1.0)
+                        curMuniResult.append(float("inf"))
                     else:
                         curMuniResult.append(route.totalDistance)
             result.append(curMuniResult)
