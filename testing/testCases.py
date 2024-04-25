@@ -1,6 +1,13 @@
 # This file holds all test cases to run algorithms on
 from definitions import TestCase, GraphType
 
+# Test cases for graph of size 2475 municipalities
+ALL_TEST_CASES: list[TestCase] = [
+    TestCase("20108", "20391", GraphType.ALL_NODES),
+    TestCase("21127", "20165", GraphType.ALL_NODES),
+]
+
+# Test cases for graph of size 1000 municipalities
 ONE_THOUSAND_TEST_CASES: list[TestCase] = [
     # TestCase("20214", "20134", GraphType.ONE_THOUSAND_NODES),
     # TestCase("21146", "12032", GraphType.ONE_THOUSAND_NODES),
@@ -21,6 +28,7 @@ ONE_THOUSAND_TEST_CASES: list[TestCase] = [
     # TestCase("20267", "20157", GraphType.ONE_THOUSAND_NODES),
 ]
 
+# Test cases for graph of size 500 municipalities
 FIVE_HUNDRED_TEST_CASES: list[TestCase] = [
     # TestCase("01011", "32036", GraphType.FIVE_HUNDRED_NODES),
     # TestCase("30161", "30155", GraphType.FIVE_HUNDRED_NODES),
@@ -57,10 +65,16 @@ FIVE_HUNDRED_TEST_CASES: list[TestCase] = [
     # TestCase("21176", "21165", GraphType.FIVE_HUNDRED_NODES),
 ]
 
+# Test cases to find all shortest paths in a graph
 ALL_SHORTEST_PATH_TEST_CASES: list[TestCase] = [
     TestCase(None, None, GraphType.FIVE_HUNDRED_NODES),
     # TestCase(None, None, GraphType.ONE_THOUSAND_NODES),
     # TestCase(None, None, GraphType.ALL_NODES),
 ]
 
-TEST_CASES: list[TestCase] = ALL_SHORTEST_PATH_TEST_CASES
+TEST_CASES: list[TestCase] = (
+    FIVE_HUNDRED_TEST_CASES
+    + ONE_THOUSAND_TEST_CASES
+    + ALL_TEST_CASES
+    + ALL_SHORTEST_PATH_TEST_CASES
+)

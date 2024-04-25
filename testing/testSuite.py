@@ -27,13 +27,14 @@ from aStar import AStar
 from dijkstra import Dijkstra
 from floydWarshall import FloydWarshall
 from testCases import TEST_CASES
-from createMap import createMap
+
+# from createMap import createMap
 
 # Defined constants
 ALGORITHMS_TO_TEST: list[SPAlgorithm] = [
     SPAlgorithm.DIJKSTRA,
     SPAlgorithm.A_STAR,
-    # SPAlgorithm.FLOYD_WARSHALL,
+    SPAlgorithm.FLOYD_WARSHALL,
 ]
 
 CARS_TO_TEST: list[TeslaModelRange] = [
@@ -172,7 +173,9 @@ def getAllShortestPaths(
         case SPAlgorithm.A_STAR:
             return AStar.getAllShortestPaths(carRange.value, graph)
         case SPAlgorithm.FLOYD_WARSHALL:
-            return FloydWarshall.getAllShortestPaths(carRange.value, graph)
+            print("Floyd-Warshall already returns all shortest paths, no need to run.")
+            return []
+            # return FloydWarshall.getAllShortestPaths(carRange.value, graph)
         case _:
             print("Bad algorithm type in test case, please retry.")
             raise ValueError("Invalid algorithm type")
