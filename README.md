@@ -1,4 +1,7 @@
 # CS456 Final Project, Team Baby Yoda
+**Team Members:** Aiden Nelson, Brian Tipton, Julie Meglan, Austin Herkert
+
+**Github Repository Link:** [https://github.com/AidenNelsonsPortfolio/MexicoEVData](https://github.com/AidenNelsonsPortfolio/MexicoEVData)
 
 ## Overview
 This repository contains the entire codebase used in Baby Yoda’s final project. See below for a required Python install, as well as detailed guides on how (and where) to run test cases and data processing.
